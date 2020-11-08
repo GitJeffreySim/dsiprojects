@@ -2,7 +2,7 @@
 
 # 2017 & 2018 SAT/ ACT Data Analysis
 
-_Prefix: If is strongly recommended that you read this file together with the ![Python code file](./code/Project 1 - 2017_2018_SAT_and_ACT_Analysis.ipynb) and the ![presentation file](./Project 1 presentation.pdf)
+Prefix: If is strongly recommended that you read this file together with the [Python code file](./code/Project_1_2017_2018_SAT_and_ACT_Analysis.ipynb) and the [presentation file](./Project_1_presentation.pdf)
 
 # Problem statement
 
