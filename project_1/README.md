@@ -2,7 +2,7 @@
 
 # 2017 & 2018 SAT/ ACT Data Analysis
 
-_Prefix: If is strongly recommended that you read this file together with the Python code file and the presentation file together._
+_Prefix: If is strongly recommended that you read this file together with the ![Python code file](./code/Project 1 - 2017_2018_SAT_and_ACT_Analysis.ipynb) and the ![presentation file](./Project 1 presentation.pdf)
 
 # Problem statement
 
@@ -33,7 +33,7 @@ A combination of analysis into the provided data and outside research should giv
 - Columns renaming and datatypes standardization
 - Correction of data values errors as compared to the actual web data (eg. values and Min/Max range of test scores)
 - Removal of unnecessary symbols and text that may cause computational errors
-- Merging of 2017 and 2018 data into a final dataset (filename: [final.csv](../data/final.csv) in the "data" folder)
+- Merging of 2017 and 2018 data into a final dataset (filename: [final.csv](./data/final.csv) in the "data" folder)
 
 __Preview:__
 ![final_preview.png](./imgs/final_preview.png)
