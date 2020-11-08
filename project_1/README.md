@@ -18,13 +18,12 @@ A combination of analysis into the provided data and outside research should giv
 # Executive Summary
 
 ### Contents:
-1. [Data importing and cleaning]
-2. [Data Dictionary]
-3. [Exploratory Data Analysis]
-4. [Mapping data in Tableau]
-5. [Descriptive and Inferential Statistics]
-6. [Conclusion and recommendations]
-
+1. Data importing and cleaning
+2. Data Dictionary
+3. Exploratory Data Analysis
+4. Mapping data in Tableau
+5. Descriptive and Inferential Statistics
+6. Conclusion and recommendations
 
 ## 1. Data importing and cleaning
 
