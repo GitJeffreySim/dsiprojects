@@ -18,16 +18,15 @@ A combination of analysis into the provided data and outside research should giv
 # Executive Summary
 
 ### Contents:
-1. [Data importing and cleaning](#1.-Data-importing-and-cleaning)
-2. [Data Dictionary](#2.-Data-Dictionary)
-3. [Exploratory Data Analysis](#3.-Exploratory-Data-Analysis)
-4. [Mapping data in Tableau](#4.-Mapping-data-in-Tableau)
-5. [Descriptive and Inferential Statistics](#5.-Descriptive-and-Inferential-Statistics)
-6. [Conclusion and recommendations](#6.-Conclusion-and-recommendations)
+1. [Data importing and cleaning]
+2. [Data Dictionary]
+3. [Exploratory Data Analysis]
+4. [Mapping data in Tableau]
+5. [Descriptive and Inferential Statistics]
+6. [Conclusion and recommendations]
 
 
 ## 1. Data importing and cleaning
-[back to contents](#Contents:)
 
 2017/2018 dataset were provided as csv files, upon importing into Python there were issues identified that required data cleansing to get a complete and clean dataset. Details of actual work done can be found in the Python code file. These included:
 - Columns renaming and datatypes standardization
@@ -39,7 +38,6 @@ __Preview:__
 ![final_preview.png](./imgs/final_preview.png)
 
 ## 2. Data Dictionary
-[back to contents](#Contents:)
 
 After getting a clean and complete final dataset, we were able to collate a Data Dictionary as follows:
 
@@ -75,7 +73,6 @@ After getting a clean and complete final dataset, we were able to collate a Data
 
 
 ## 3. Exploratory Data Analysis
-[back to contents](#Contents:)
     
 **(a)  Standard Deviation Analysis**
    
@@ -91,8 +88,6 @@ A quick analysis of the standard deviation (SD) of all the variables gave us a s
 In this case, the difference is negligible but it is important to know the difference in application of the three methods against different types of sample. A quick glance over the std and mean of each variable, as a general rule of thumb if the std is less than 1/3 of the mean, it is consider normal. The only exceptions are the % denominated variables (eg. sat_pcp%) which is exactly the variables that we are trying to consider in this analysis as to why some states have very high or very low participation rates.
 
 **(b)  Participation Rate vs Performance**
-
-[back to contents](#Contents:)
    
 Using Python we were able to filter the data for:
 - states with highest/lowest SAT/ACT participation rates in 2017/2018
@@ -141,8 +136,6 @@ In essence, we generally assume that data we sample from a population will be no
 **(c)  Scatter plots**
 _(Details of plots are in the code file)_
 
-[back to contents](#Contents:)
-
 Using Seaborn scatter plot on:
 - SAT Math/ACT Math, SAT Evidence-Based Reading and Writing/ACT Reading and SAT Total Scores/ACT Composite in the same year, there was no strong correlation between the pairs.
 
@@ -151,8 +144,6 @@ Using Seaborn scatter plot on:
 
 **(d)  Box plots**
 _(Details of plots are in the code file)_
-
-[back to contents](#Contents:)
 
 Using Seaborn boxplot on:
 - SAT Total Scores and subject scores, we did not observe any significant variation between the years other than a slight drop in mean scores.
@@ -166,7 +157,6 @@ Using Seaborn boxplot on:
 Additionally, we plotted scatter plots on SAT Participation Rate vs SAT Total Scores and ACT Participation Rate vs ACT Composite Scores to see if there is any correlation. We observed that ACT and SAT scores are inversely correlated with their respective participation rates. This is likely due to selection bias, as low participation means those who are participating tend to be higher achieving, and high participation means diluted quality of performance.
 
 ## 4. Mapping data in Tableau
-[back to contents](#Contents:)
 
 As an optional visualization, we created a chloropleth map of the 50 US states showing the breakdown of their respective SAT/ACT Participation and subject scores.
 
@@ -175,7 +165,6 @@ The chloropleth map an be access [here](https://public.tableau.com/profile/jeffr
 ![tableau.png](./imgs/tableau.png)
 
 ## 5. Descriptive and Inferential Statistics
-[back to contents](#Contents:)
 
 **(a)  Participation rate**
 
@@ -196,8 +185,6 @@ Considering the above, we will still attempt to conduct inference with these dat
 
 **(b)  Identifying States of interest**
 
-[back to contents](#Contents:)
-
 Using simple bar charts in Python to plot the 2017/2018 SAT/ACT Participation Rates, we were able to easily identify the following states of interest:
 - From the SAT chart, Colorado and Illinois who had significant increase in 2018 SAT participation rate as compared to 2017 while at the same time had significant reduction in their ACT Participation Rate.
 
@@ -207,8 +194,6 @@ Using simple bar charts in Python to plot the 2017/2018 SAT/ACT Participation Ra
 Therefore, **Alaska, Colorado and Illinois** are chosen as the three states to be investigated further.
 
 **(c)  Outside Research**
-
-[back to contents](#Contents:)
 
 **Investigating Colorado and Illinois had significant increase in 2018 SAT participation rate as compared to 2017**
 
@@ -252,7 +237,6 @@ Therefore, **Alaska, Colorado and Illinois** are chosen as the three states to b
 - As for ACT scatter plot, the same can be observed but there were a greater number of non-paying states in the 20-80% participation rate region. If these non-paying states started to pay for the test fees, the ACT participation rate is likely to increase. Interestingly, **none** of Alaska, Colorado and Illinois were listed as states that require the ACT. This further supports the drop in ACT participation rate. Moreover, Alaska did not pay for either SAT or ACT test fees.
 
 ## 6. Conclusion and recommendations
-[back to contents](#Contents:)
 
 The ACT and SAT participation distributions roughly mirror each other, with states tending to prefer one test or the other based on bias of **whether SAT or ACT is required** in that state and **whether the state is paying for the tests or not**.
 
