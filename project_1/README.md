@@ -172,7 +172,7 @@ As an optional visualization, we created a chloropleth map of the 50 US states s
 
 The chloropleth map an be access [here](https://public.tableau.com/profile/jeffrey.sim2093#!/vizhome/GA-DSIProject1/2018SATACT?publish=yes). Mouseover each of the states will show the breakdown of the scores. Note: Only plotted 2018 data instead of every variable.
 
-![tableau.png](attachment:tableau.png)
+![tableau.png](./imgs/tableau.png)
 
 ## 5. Descriptive and Inferential Statistics
 [back to contents](#Contents:)
@@ -231,7 +231,7 @@ Therefore, **Alaska, Colorado and Illinois** are chosen as the three states to b
 **Investigating Alaska, Colorado and Illinois had significant reduction in 2018 ACT participation rate as compared to 2017**
 
 - According to various found online, we knew that some states made it compulsory to take SAT or ACT while some do not. We also knew that some states paid for the tests and these tests were not cheap, even more costly if test takers chose to take the writing portions.
-    - (source:https://www.testive.com/state-sat-act/), none of Alaska, Colorado and Illinois are listed as states that require the ACT.
+    - (source:https://www.testive.com/state-sat-act/), **none** of Alaska, Colorado and Illinois are listed as states that require the ACT.
     -  (source:https://www.adn.com/alaska-news/education/2016/06/30/students-no-longer-need-national-tests-to-graduate/#:~:text=The%20SAT%20and%20ACT%20cost,district%20fee%20for%20the%20diplomas), Alaska's high school students no longer need to take the SAT, ACT or WorkKeys test to get their diplomas. The state law requiring the college or career readiness tests expired Thursday. As of now, the Class of 2017 will only need to meet credit requirements to get their diplomas, said Margaret MacKinnon, director of assessment and accountability at Alaska's state education department.
     - According to this article (source:https://www.usnews.com/education/best-colleges/articles/2018-01-23/how-to-take-the-sat-act-for-free#:~:text=Test%2Dtakers%20must%20pay%20%2449.50,other%20changes%20in%20test%20administration), Test-takers must pay USD49.50 to register for the SAT or USD52 for the ACT, according to the College Board and ACT websites. For test versions that include writing portions, the SAT costs USD64.50 and the ACT runs USD68. Other fees may apply to both exams for late registration or other changes in test administration. There are also states that will pay the bill for the SAT and ACT for public school students. (Note: I extracted the paying states from this link as well)
 
