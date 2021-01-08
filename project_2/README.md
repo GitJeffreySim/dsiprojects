@@ -1,7 +1,7 @@
 # PROJECT 2 - AMES HOUSING DATA AND KAGGLE CHALLENGE
 
 <h1>Table of Contents<span class="tocSkip"></span></h1>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Problem-Statement" data-toc-modified-id="Problem-Statement-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Problem Statement</a></span></li><li><span><a href="#Executive-Summary" data-toc-modified-id="Executive-Summary-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Executive Summary</a></span></li><li><span><a href="#Data-importing-and-cleaning" data-toc-modified-id="Data-importing-and-cleaning-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Data importing and cleaning</a></span></li><li><span><a href="#Data-Dictionary" data-toc-modified-id="Data-Dictionary-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Data Dictionary</a></span></li><li><span><a href="#Exploratory-Data-Analysis" data-toc-modified-id="Exploratory-Data-Analysis-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Exploratory Data Analysis</a></span><ul class="toc-item"><li><span><a href="#Exploring-distribution-of-SalePrice---First-Look" data-toc-modified-id="Exploring-distribution-of-SalePrice---First-Look-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Exploring distribution of SalePrice - First Look</a></span></li><li><span><a href="#Categorical-features-EDA" data-toc-modified-id="Categorical-features-EDA-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Categorical features EDA</a></span></li><li><span><a href="#Numerical-features-EDA" data-toc-modified-id="Numerical-features-EDA-5.3"><span class="toc-item-num">5.3&nbsp;&nbsp;</span>Numerical features EDA</a></span></li><li><span><a href="#Continuous-features-shortlisting" data-toc-modified-id="Continuous-features-shortlisting-5.4"><span class="toc-item-num">5.4&nbsp;&nbsp;</span>Continuous features shortlisting</a></span></li><li><span><a href="#Correlation-of-Numeric-features" data-toc-modified-id="Correlation-of-Numeric-features-5.5"><span class="toc-item-num">5.5&nbsp;&nbsp;</span>Correlation of Numeric features</a></span></li></ul></li><li><span><a href="#One-Hot-encoding-and-Feature-Engineering" data-toc-modified-id="One-Hot-encoding-and-Feature-Engineering-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>One-Hot encoding and Feature Engineering</a></span></li><li><span><a href="#Baseline-model-score" data-toc-modified-id="Baseline-model-score-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>Baseline model score</a></span></li><li><span><a href="#Model-Prep:-Train-Test-Split-and-StandardScaler" data-toc-modified-id="Model-Prep:-Train-Test-Split-and-StandardScaler-8"><span class="toc-item-num">8&nbsp;&nbsp;</span>Model Prep: Train-Test-Split and StandardScaler</a></span></li><li><span><a href="#Model-evaluation-using-cross-validation" data-toc-modified-id="Model-evaluation-using-cross-validation-9"><span class="toc-item-num">9&nbsp;&nbsp;</span>Model evaluation using cross validation</a></span></li><li><span><a href="#Model-Fitting,-Evaluation-and-Tuning" data-toc-modified-id="Model-Fitting,-Evaluation-and-Tuning-10"><span class="toc-item-num">10&nbsp;&nbsp;</span>Model Fitting, Evaluation and Tuning</a></span></li><li><span><a href="#Re-run-Lasso-with-reduced-features" data-toc-modified-id="Re-run-Lasso-with-reduced-features-11"><span class="toc-item-num">11&nbsp;&nbsp;</span>Re-run Lasso with reduced features</a></span></li><li><span><a href="#Generating-predictions-for-Kaggle's-Test-data" data-toc-modified-id="Generating-predictions-for-Kaggle's-Test-data-12"><span class="toc-item-num">12&nbsp;&nbsp;</span>Generating predictions for Kaggle's Test data</a></span></li><li><span><a href="#Kaggle-Submission-Result" data-toc-modified-id="Kaggle-Submission-Result-13"><span class="toc-item-num">13&nbsp;&nbsp;</span>Kaggle Submission Result</a></span></li><li><span><a href="#Conclusion-and-recommendations" data-toc-modified-id="Conclusion-and-recommendations-14"><span class="toc-item-num">14&nbsp;&nbsp;</span>Conclusion and recommendations</a></span></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Problem-Statement" data-toc-modified-id="Problem-Statement-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Problem Statement</a></span></li><li><span><a href="#Executive-Summary" data-toc-modified-id="Executive-Summary-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Executive Summary</a></span></li><li><span><a href="#Data-importing-and-cleaning" data-toc-modified-id="Data-importing-and-cleaning-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Data importing and cleaning</a></span></li><li><span><a href="#Data-Dictionary" data-toc-modified-id="Data-Dictionary-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Data Dictionary</a></span></li><li><span><a href="#Exploratory-Data-Analysis" data-toc-modified-id="Exploratory-Data-Analysis-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Exploratory Data Analysis</a></span><ul class="toc-item"><li><span><a href="#Exploring-distribution-of-SalePrice---First-Look" data-toc-modified-id="Exploring-distribution-of-SalePrice---First-Look-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Exploring distribution of SalePrice - First Look</a></span></li><li><span><a href="#Categorical-features-EDA" data-toc-modified-id="Categorical-features-EDA-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Categorical features EDA</a></span></li><li><span><a href="#Numerical-features-EDA" data-toc-modified-id="Numerical-features-EDA-5.3"><span class="toc-item-num">5.3&nbsp;&nbsp;</span>Numerical features EDA</a></span></li><li><span><a href="#Continuous-features-shortlisting" data-toc-modified-id="Continuous-features-shortlisting-5.4"><span class="toc-item-num">5.4&nbsp;&nbsp;</span>Continuous features shortlisting</a></span></li><li><span><a href="#Correlation-of-Numeric-features" data-toc-modified-id="Correlation-of-Numeric-features-5.5"><span class="toc-item-num">5.5&nbsp;&nbsp;</span>Correlation of Numeric features</a></span></li></ul></li><li><span><a href="#One-Hot-encoding-and-Feature-Engineering" data-toc-modified-id="One-Hot-encoding-and-Feature-Engineering-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>One-Hot encoding and Feature Engineering</a></span></li><li><span><a href="#Baseline-model-score" data-toc-modified-id="Baseline-model-score-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>Baseline model score</a></span></li><li><span><a href="#Model-Prep-Train-Test-Split-and-StandardScaler" data-toc-modified-id="Model-Prep-Train-Test-Split-and-StandardScaler-8"><span class="toc-item-num">8&nbsp;&nbsp;</span>Model Prep Train-Test-Split and StandardScaler</a></span></li><li><span><a href="#Model-evaluation-using-cross-validation" data-toc-modified-id="Model-evaluation-using-cross-validation-9"><span class="toc-item-num">9&nbsp;&nbsp;</span>Model evaluation using cross validation</a></span></li><li><span><a href="#Model-Fitting,-Evaluation-and-Tuning" data-toc-modified-id="Model-Fitting,-Evaluation-and-Tuning-10"><span class="toc-item-num">10&nbsp;&nbsp;</span>Model Fitting, Evaluation and Tuning</a></span></li><li><span><a href="#Re-run-Lasso-with-reduced-features" data-toc-modified-id="Re-run-Lasso-with-reduced-features-11"><span class="toc-item-num">11&nbsp;&nbsp;</span>Re-run Lasso with reduced features</a></span></li><li><span><a href="#Generating-predictions-for-Kaggle's-Test-data" data-toc-modified-id="Generating-predictions-for-Kaggle's-Test-data-12"><span class="toc-item-num">12&nbsp;&nbsp;</span>Generating predictions for Kaggle's Test data</a></span></li><li><span><a href="#Kaggle-Submission-Result" data-toc-modified-id="Kaggle-Submission-Result-13"><span class="toc-item-num">13&nbsp;&nbsp;</span>Kaggle Submission Result</a></span></li><li><span><a href="#Conclusion-and-recommendations" data-toc-modified-id="Conclusion-and-recommendations-14"><span class="toc-item-num">14&nbsp;&nbsp;</span>Conclusion and recommendations</a></span></li></ul></div>
 
 ## Problem Statement
 
@@ -163,11 +163,11 @@ Next we used stripplot with additional 3 vertical lines to assist in determining
 
 There are 19 numerical continuous features (excluding `SalePrice`) and from analyzing the plots above, we observed two distinct points:
 
-1. Some features had a linear relation with saleprice so we will select these. However, these features had a lot of outliers (as shown in the extent of the red shaded area in the regplot and number of data points above the max. threshold on the stripplot). We decided to set a threshold for each selected feature to identify the outliers, then impute the outliers with the mean of the population since the median is not too far off from the mean. These included:
+1. Some features had a linear relation with saleprice so we will select these. However, these features had a lot of outliers (as shown in the extent of the red shaded area in the regplot and number of data points above the max. threshold on the stripplot). We decided to set a threshold for each selected feature to identify the outliers, then drop the outliers. These included:
 
 `LotFrontage` `LotArea` `BsmtFinSF1` `BsmtUnfSF` `TotalBsmtSF` `1stFlrSF` `GrLivArea` `GarageArea` `OpenPorchSF`
 
-There are 3 border line features where the number of zeros is over or close to 50% of the population (i.e. 2050/2 = 1025). Upon consulting the data dictionary on their description, it seemed logical that these features may have zero values. For example, if there is no WoodDeck in the house, this value would be zero. Thus, we decided to impute these with the mean of the population as well.
+There are 3 border line features where the number of zeros is over or close to 50% of the population (i.e. 2050/2 = 1025). Upon consulting the data dictionary on their description, it seemed logical that these features may have zero values. For example, if there is no WoodDeck in the house, this value would be zero. Thus, we decided to leave these as zeros.
 
 `MasVnrArea` `2ndFlrSF` `WoodDeckSF`
 
@@ -190,16 +190,15 @@ We plotted the Pearson correlation heatmap and saw the correlation of numerical 
 
 By sorting the list, we could see that the top features with highest positive correlation coefficient (>0.5) were:
 
-    - GarageCars       0.647825
-    - GrLivArea        0.616921
-    - GarageArea       0.601463
-    - 1stFlrSF         0.576598
-    - YearBuilt        0.571592
-    - TotalBsmtSF      0.569970
-    - GarageYrBlt      0.555879
-    - YearRemod/Add    0.550112
-    - FullBath         0.537794
-    - TotRmsAbvGrd     0.504316
+    GrLivArea        0.668579
+    YearBuilt        0.631692
+    GarageCars       0.626435
+    GarageArea       0.601429
+    GarageYrBlt      0.598366
+    YearRemod/Add    0.589632
+    TotalBsmtSF      0.588831
+    1stFlrSF         0.554601
+    FullBath         0.548719
     
 These were then put plotted into any heatmap to eliminate features with high collinearity to each other.
 
@@ -241,17 +240,17 @@ Having finalised the features, we run a linear regression with cross validation 
 
 |Model Type|Validation Method|R2|RMSE|
 |:---|:---|:---|:---|
-|Baseline (Unseen data)|LR cross validation|      0.8248| 	 33,261|
+|Baseline (Unseen data)|LR cross validation|       0.856 | 	 22,146|
 
 Baseline models are often expected to be the most liberal and lacking so in theory, whatever models we tuned and used for production, must be performing better than these baseline models.
 
-Looking at 𝑅2, we could interpret this as 𝑅2 value of 0.82 means around 82% of the variability in sale price was explained by the x-features in our model. It is however, important to note that 𝑅2 is ONLY INTERPRETABLE WITH LINEAR REGRESSION.
+Looking at 𝑅2, we could interpret this as 𝑅2 value of 0.86 means around 86% of the variability in sale price was explained by the x-features in our model. It is however, important to note that 𝑅2 is ONLY INTERPRETABLE WITH LINEAR REGRESSION.
 
 It is hard to judge what would be a good 𝑅2 range at this point as the features may very well change as we proceed. 
 
-**Thus, for Baseline comparison, we can expect a 𝑅2 score around 0.82 (tolerance +/- 5%) and RMSE score to be lower since the key measurement metric of this project was RMSE.**
+**Thus, for Baseline comparison, we can expect a 𝑅2 score around 0.86 (tolerance +/- 5%) and RMSE score to be lower since the key measurement metric of this project was RMSE.**
 
-## Model Prep: Train-Test-Split and StandardScaler
+## Model Prep Train-Test-Split and StandardScaler
 
 We applied Train-Test-Split and StandardScaler to prepare the model data. Followed by instantiating the various regression models that we intend to evaluate.
 
@@ -268,12 +267,12 @@ This was the result:
 
 |Model Type|Validation Method|R2|RMSE|R2 var +/- 5%|RMSE better?|Remarks|
 |:---|:---|:---|:---|:---:|:---:|:---|
-|Baseline (Unseen data)|LR cross validation|       0.8248| 	  33,261|---|---|---|
+|Baseline (Unseen data)|LR cross validation|       0.8577| 	  22,146|---|---|---|
 |---|---|---|---|---|---|---|
-|Train bloc|LR cross validation|	  0.8108| 	 34,415|Yes|No|Lower bias, Increase variance|
-|Train bloc|Ridge cross validation|	 0.8134| 	 34,206|Yes|No|Lower bias, Increase variance|
-|Train bloc|Lasso cross validation|	 0.8125| 	 34,274|Yes|No|Lower bias, Increase variance|
-|Train bloc|ElasticNet cross validation|	 0.8131| 	 34,233|Yes|No|Lower bias, Increase variance|
+|Train bloc|LR cross validation|	  0.8565| 	 22,543|Yes|No|Lower bias, Increase variance|
+|Train bloc|Ridge cross validation|	 0.8571| 	 22,497|Yes|No|Lower bias, Increase variance|
+|Train bloc|Lasso cross validation|	 0.8566| 	 22,536|Yes|No|Lower bias, Increase variance|
+|Train bloc|ElasticNet cross validation|	 0.8570| 	 22,507|Yes|No|Lower bias, Increase variance|
 
 When we applied the basic models (without tuning) to the train bloc and comparing it against the baseline. We saw that all the models had lower bias (R2) but it is within the tolerance (+/- 5%) that we set. We also saw an increase in variance (RMSE) but not by a large margin. This was more or less expected as the number of rows had decreased by almost 1/3 of the total train data set with 2050 rows.
 
@@ -291,31 +290,31 @@ Note: we added ElasticNet here as we intent to determine in next step if it will
 
 We then fitted the model to the train bloc, and evaluate the train and test bloc scores. This was the result:
 
-|Model Type|Validation Method|R2|RMSE|R2(+/-5%) vs cross validation?|RMSE better vs cross validation?|Result vs cross validation|
+|Model Type|Validation Method|R2|RMSE|R2 var +/- 5%|RMSE better?|Remarks|
 |:---|:---|:---|:---|:---:|:---:|:---|
-|Baseline (Unseen data)|LR cross validation|      0.8248| 	 33,261|---|---|---|
+|Baseline (Unseen data)|LR cross validation|       0.8577| 	  22,146|---|---|---|
 |---|---|---|---|---|---|---|
-|LR on Train bloc|cross validation|	 0.8108| 	 34,415|Yes|No|Lower bias, Increase variance|
-|Ridge on Train bloc|cross validation|	 0.8134| 	 34,206|Yes|No|Lower bias, Increase variance|
-|Lasso on Train bloc|cross validation|	 0.8125| 	 34,274|Yes|No|Lower bias, Increase variance|
-|ElasticNet on Train bloc|cross validation|	 0.8131| 	 34,233|Yes|No|Lower bias, Increase variance|
+|Train bloc|LR cross validation|	  0.8565| 	 22,543|Yes|No|Lower bias, Increase variance|
+|Train bloc|Ridge cross validation|	 0.8571| 	 22,497|Yes|No|Lower bias, Increase variance|
+|Train bloc|Lasso cross validation|	 0.8566| 	 22,536|Yes|No|Lower bias, Increase variance|
+|Train bloc|ElasticNet cross validation|	 0.8570| 	 22,507|Yes|No|Lower bias, Increase variance|
 |---|---|---|---|---|---|---|
-|LR on Train bloc|fit and score|	 0.8282| 	 32,850|Yes|Yes|Increase bias, Lower variance|
-|Ridge on Train bloc|fit and score|	 0.8272| 	 32,947|Yes|Yes|Increase bias, Lower variance|
-|Lasso on Train bloc|fit and score|	 0.8274| 	 32,924|Yes|Yes|Increase bias, Lower variance|
-|ElasticNet on Train bloc|fit and score|	 0.8269| 	 32,978|Yes|Yes|Increase bias, Lower variance|
+|LR on Train bloc|fit and score|	 0.8657| 	 21,871|Yes|Yes|Increase bias, Lower variance|
+|Ridge on Train bloc|fit and score|	 0.8653| 	 21,903|Yes|Yes|Increase bias, Lower variance|
+|Lasso on Train bloc|fit and score|	 0.8651| 	 21,924|Yes|Yes|Increase bias, Lower variance|
+|ElasticNet on Train bloc|fit and score|	 0.8648| 	 21,944|Yes|Yes|Increase bias, Lower variance|
 |---|---|---|---|---|---|---|
-|LR on Test bloc|fit and score|	  0.8344| 	 32,216|Yes|Yes|Increase bias, Lower variance|
-|Ridge on Test bloc|fit and score|	 0.8343| 	 32,228|Yes|Yes|Increase bias, Lower variance|
-|Lasso on Test bloc| fit and score|	 0.8346| 	 32,197 |Yes|Yes|Increase bias, Lower variance|
-|ElasticNet on Test bloc|fit and score|	 0.8341| 	 32,244|Yes|Yes|Increase bias, Lower variance|
+|LR on Test bloc|fit and score|	  0.8517| 	 20,783|Yes|Yes|Increase bias, Lower variance|
+|Ridge on Test bloc|fit and score|	 0.8515| 	 20,796|Yes|Yes|Increase bias, Lower variance|
+|Lasso on Test bloc| fit and score|	 0.8510| 	 20,833 |Yes|Yes|Increase bias, Lower variance|
+|ElasticNet on Test bloc|fit and score|	 0.8517| 	 20,783|Yes|Yes|Increase bias, Lower variance|
 
 **1. Train bloc Fit and Score vs Train bloc Cross Validation:**
 - Although there was an increase in bias (R2), it was within tolerance.
-- Variance had decreased considerably across models using default hyperparameters and optimal alphas. AMong the models, Lasso Regression had the largest reduction in RMSE of -3.94% (32924/34274).
+- Variance had decreased considerably across models using default hyperparameters and optimal alphas. Among the models, Lasso Regression had the largest reduction in RMSE of -2.71% (21924/22536).
 
 **2. Test bloc Fit and Score vs Train bloc Fit and Score**
-- Consistent in increase in bias but within tolerance and decreased variance considerably across all models. Again, among the models, Lasso Regression registered the largest reduction in RMSE of -6.06% (32197/34274).
+- Consistent in increase in bias but within tolerance and decreased variance considerably across all models. Again, among the models, Lasso Regression registered the largest reduction in RMSE of -7.56% (20833/22536).
 
 **3. Train and Test bloc vs Baseline Cross Validation**
 - In comparison to baseline, all the models had lower RMSE than baseline. This is encouraging as it proved that the models are all working to outperform baseline, we just need to choose the best one.
@@ -323,9 +322,9 @@ We then fitted the model to the train bloc, and evaluate the train and test bloc
 
 **MODEL SELECTED**
 
-Based on the results, although all models performed better. Lasso Regression produced the best result of reducing variance, RMSE score by -6.06% while maintaining with 5% tolerance of R2. We also observed that there are 3 features that Lasso zeroed their coefficients which meant that we could removed these 3 features from the model.
+Based on the results, although all models performed better. Lasso Regression produced the best result of reducing variance, RMSE score while maintaining with 5% tolerance of R2. We also observed that there are 4 features that Lasso zeroed their coefficients which meant that we could removed these 4 features from the model.
 
-The optimal alpha was calculated at 413.952047798533 Thus, we decided to fine-tune the Lasso model by removing the 7 features and re-run it at optimal alpha, then setting it as the selected production model.
+The optimal alpha was calculated at 111.200979547034. Thus, we decided to fine-tune the Lasso model by removing the 5 features and re-run it at optimal alpha, then setting it as the selected production model.
 
 ## Re-run Lasso with reduced features
 
@@ -360,7 +359,7 @@ After submitting to Kaggle, this was our significant improvement in result from 
 
 In this project, we utilized feature elimination techniques such as EDA and correlation analysis. This helped to trim the 80 features down to 28 prior to model building.
 
-Simple feature engineering was then employed based on logical assumption with limited domain knowledge. There were 124 features when stacked with those generated by hot-encoding. Using correlation analysis, we trimmed that down to 29 most significant features.
+Simple feature engineering was then employed based on logical assumption with limited domain knowledge. There were 123 features when stacked with those generated by hot-encoding. Using correlation analysis, we trimmed that down to 30 most significant features.
 
 We passed that data through a baseline linear regression model to established a baseline score. Then attempted to regularize the other various models (Linear, Ridge, Lasso, ElasticNet) using model tuning to ensure that we had chosen the best model that could make the best predictions on unseen data.
 
