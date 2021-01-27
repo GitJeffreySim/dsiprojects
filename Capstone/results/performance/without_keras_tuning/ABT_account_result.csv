@@ -1,0 +1,22 @@
+Description,ABT
+Strategy Name,Long Term Simple Strategy
+Trade actions from,2000-01-03 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,5167
+In yrs rounded up,20
+Total trades conducted,74
+Account starting balance,50000
+Account ending balance,77800.21444858235
+Account share balance,0
+Account Close Value,0
+Profit/Loss,27800.214448582352
+Total Percentage return (whole period),55.6004288971647
+Percentage return per yr,2.7800214448582348
+Banking returns,67342.75
+RMSE,0.6757822415227492
+Number of right calls,3713
+Right calls %,71.8320758367189
+Number of wrong calls,1456
+Wrong calls %,28.1679241632811

@@ -1,0 +1,22 @@
+Description,LDOS
+Strategy Name,Long Term Simple Strategy
+Trade actions from,2006-10-17 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,3459
+In yrs rounded up,14
+Total trades conducted,27
+Account starting balance,50000
+Account ending balance,120777.22575425776
+Account share balance,0
+Account Close Value,0
+Profit/Loss,70777.22575425776
+Total Percentage return (whole period),141.5544515085155
+Percentage return per yr,10.11103225060825
+Banking returns,61587.79
+RMSE,1.7861776104094391
+Number of right calls,1840
+Right calls %,53.194564903151196
+Number of wrong calls,1619
+Wrong calls %,46.805435096848804

@@ -1,0 +1,22 @@
+Description,MGA
+Strategy Name,Long Term Simple Strategy
+Trade actions from,2000-01-03 00:00:00
+Trade actions to,2020-10-11 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,5167
+In yrs rounded up,20
+Total trades conducted,63
+Account starting balance,50000
+Account ending balance,215618.55114114383
+Account share balance,0
+Account Close Value,0
+Profit/Loss,165618.55114114383
+Total Percentage return (whole period),331.23710228228765
+Percentage return per yr,16.561855114114383
+Banking returns,67342.75
+RMSE,0.7957696859348468
+Number of right calls,3026
+Right calls %,58.56396361525063
+Number of wrong calls,2141
+Wrong calls %,41.43603638474937

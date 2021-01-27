@@ -1,0 +1,22 @@
+Description,MRK
+Strategy Name,Long Term Simple Strategy
+Trade actions from,2000-01-03 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,5166
+In yrs rounded up,20
+Total trades conducted,123
+Account starting balance,50000
+Account ending balance,118131.62132161952
+Account share balance,0
+Account Close Value,0
+Profit/Loss,68131.62132161952
+Total Percentage return (whole period),136.26324264323904
+Percentage return per yr,6.813162132161951
+Banking returns,67342.75
+RMSE,0.4680826941270903
+Number of right calls,3794
+Right calls %,73.44173441734418
+Number of wrong calls,1372
+Wrong calls %,26.558265582655828

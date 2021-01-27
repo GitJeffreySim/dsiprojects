@@ -1,0 +1,22 @@
+Description,RCI
+Strategy Name,Long Term Simple Strategy
+Trade actions from,2000-01-03 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,5166
+In yrs rounded up,20
+Total trades conducted,101
+Account starting balance,50000
+Account ending balance,132648.04833556892
+Account share balance,0
+Account Close Value,0
+Profit/Loss,82648.04833556892
+Total Percentage return (whole period),165.29609667113786
+Percentage return per yr,8.264804833556893
+Banking returns,67342.75
+RMSE,0.22685148466199193
+Number of right calls,4329
+Right calls %,83.7979094076655
+Number of wrong calls,837
+Wrong calls %,16.202090592334496

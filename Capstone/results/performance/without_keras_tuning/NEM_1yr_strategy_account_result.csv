@@ -1,0 +1,22 @@
+Description,NEM
+Strategy Name,Short Term Simple Strategy
+Trade actions from,2019-10-09 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,252
+In yrs rounded up,1
+Total trades conducted,4
+Account starting balance,50000
+Account ending balance,51612.428116803945
+Account share balance,0
+Account Close Value,0
+Profit/Loss,1612.4281168039452
+Total Percentage return (whole period),3.2248562336078903
+Percentage return per yr,3.2248562336078903
+Banking returns,50750.0
+RMSE,0.9910086907314933
+Number of right calls,130
+Right calls %,51.587301587301596
+Number of wrong calls,122
+Wrong calls %,48.41269841269841

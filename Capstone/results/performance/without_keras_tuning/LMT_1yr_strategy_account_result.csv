@@ -1,0 +1,22 @@
+Description,LMT
+Strategy Name,Short Term Simple Strategy
+Trade actions from,2019-10-09 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,252
+In yrs rounded up,1
+Total trades conducted,4
+Account starting balance,50000
+Account ending balance,51771.25734558619
+Account share balance,0
+Account Close Value,0
+Profit/Loss,1771.257345586193
+Total Percentage return (whole period),3.542514691172386
+Percentage return per yr,3.542514691172386
+Banking returns,50750.0
+RMSE,3.6884253411803503
+Number of right calls,131
+Right calls %,51.98412698412699
+Number of wrong calls,121
+Wrong calls %,48.01587301587302

@@ -1,0 +1,22 @@
+Description,VZ
+Strategy Name,Short Term Simple Strategy
+Trade actions from,2019-10-09 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,252
+In yrs rounded up,1
+Total trades conducted,4
+Account starting balance,50000
+Account ending balance,50657.848028821914
+Account share balance,0
+Account Close Value,0
+Profit/Loss,657.8480288219143
+Total Percentage return (whole period),1.3156960576438286
+Percentage return per yr,1.3156960576438286
+Banking returns,50750.0
+RMSE,0.5248973448748474
+Number of right calls,125
+Right calls %,49.60317460317461
+Number of wrong calls,127
+Wrong calls %,50.39682539682539

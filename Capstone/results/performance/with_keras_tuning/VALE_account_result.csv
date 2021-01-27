@@ -1,0 +1,22 @@
+Description,VALE
+Strategy Name,Long Term Simple Strategy
+Trade actions from,2002-03-21 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,4612
+In yrs rounded up,18
+Total trades conducted,129
+Account starting balance,50000
+Account ending balance,178275.83808164395
+Account share balance,0
+Account Close Value,0
+Profit/Loss,128275.83808164395
+Total Percentage return (whole period),256.55167616328794
+Percentage return per yr,14.25287089796044
+Banking returns,65367.03
+RMSE,0.4840304816568724
+Number of right calls,2447
+Right calls %,53.05724197745013
+Number of wrong calls,2165
+Wrong calls %,46.94275802254987

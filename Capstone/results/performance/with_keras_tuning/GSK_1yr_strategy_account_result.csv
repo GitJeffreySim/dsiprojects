@@ -1,0 +1,22 @@
+Description,GSK
+Strategy Name,Short Term Simple Strategy
+Trade actions from,2019-10-09 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,252
+In yrs rounded up,1
+Total trades conducted,4
+Account starting balance,50000
+Account ending balance,50647.59680854014
+Account share balance,0
+Account Close Value,0
+Profit/Loss,647.59680854014
+Total Percentage return (whole period),1.2951936170802802
+Percentage return per yr,1.2951936170802802
+Banking returns,50750.0
+RMSE,0.6238141870784976
+Number of right calls,171
+Right calls %,67.85714285714286
+Number of wrong calls,81
+Wrong calls %,32.142857142857146

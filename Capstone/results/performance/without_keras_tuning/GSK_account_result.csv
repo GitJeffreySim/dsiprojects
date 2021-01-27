@@ -1,0 +1,22 @@
+Description,GSK
+Strategy Name,Long Term Simple Strategy
+Trade actions from,2000-01-03 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,5167
+In yrs rounded up,20
+Total trades conducted,55
+Account starting balance,50000
+Account ending balance,68206.59643862772
+Account share balance,0
+Account Close Value,0
+Profit/Loss,18206.59643862772
+Total Percentage return (whole period),36.41319287725544
+Percentage return per yr,1.820659643862772
+Banking returns,67342.75
+RMSE,0.2867287352796144
+Number of right calls,4172
+Right calls %,80.71193654478623
+Number of wrong calls,997
+Wrong calls %,19.288063455213774

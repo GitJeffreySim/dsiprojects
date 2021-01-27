@@ -1,0 +1,22 @@
+Description,PWR
+Strategy Name,Short Term Simple Strategy
+Trade actions from,2019-10-09 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,252
+In yrs rounded up,1
+Total trades conducted,7
+Account starting balance,50000
+Account ending balance,54553.347666444475
+Account share balance,0
+Account Close Value,0
+Profit/Loss,4553.347666444475
+Total Percentage return (whole period),9.10669533288895
+Percentage return per yr,9.10669533288895
+Banking returns,50750.0
+RMSE,0.5307992406785123
+Number of right calls,151
+Right calls %,59.92063492063492
+Number of wrong calls,101
+Wrong calls %,40.07936507936508

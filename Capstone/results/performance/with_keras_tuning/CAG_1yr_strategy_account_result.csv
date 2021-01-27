@@ -1,0 +1,22 @@
+Description,CAG
+Strategy Name,Short Term Simple Strategy
+Trade actions from,2019-10-09 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,252
+In yrs rounded up,1
+Total trades conducted,4
+Account starting balance,50000
+Account ending balance,53029.82119241002
+Account share balance,0
+Account Close Value,0
+Profit/Loss,3029.821192410018
+Total Percentage return (whole period),6.059642384820036
+Percentage return per yr,6.059642384820036
+Banking returns,50750.0
+RMSE,0.3955843777062355
+Number of right calls,158
+Right calls %,62.698412698412696
+Number of wrong calls,94
+Wrong calls %,37.301587301587304

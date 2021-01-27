@@ -1,0 +1,22 @@
+Description,FBHS
+Strategy Name,Long Term Simple Strategy
+Trade actions from,2011-09-16 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,2221
+In yrs rounded up,9
+Total trades conducted,25
+Account starting balance,50000
+Account ending balance,69676.30434474515
+Account share balance,0
+Account Close Value,0
+Profit/Loss,19676.30434474515
+Total Percentage return (whole period),39.352608689490296
+Percentage return per yr,4.3725120766100325
+Banking returns,57169.5
+RMSE,1.133802561564105
+Number of right calls,1377
+Right calls %,61.999099504727596
+Number of wrong calls,844
+Wrong calls %,38.0009004952724

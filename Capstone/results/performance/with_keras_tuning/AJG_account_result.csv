@@ -1,0 +1,22 @@
+Description,AJG
+Strategy Name,Long Term Simple Strategy
+Trade actions from,2000-01-03 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,5166
+In yrs rounded up,20
+Total trades conducted,136
+Account starting balance,50000
+Account ending balance,228257.80235486006
+Account share balance,0
+Account Close Value,0
+Profit/Loss,178257.80235486006
+Total Percentage return (whole period),356.51560470972015
+Percentage return per yr,17.825780235486004
+Banking returns,67342.75
+RMSE,1.5365853340386526
+Number of right calls,2703
+Right calls %,52.322880371660865
+Number of wrong calls,2463
+Wrong calls %,47.67711962833914

@@ -1,0 +1,22 @@
+Description,ABBV
+Strategy Name,Short Term Simple Strategy
+Trade actions from,2019-10-09 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,252
+In yrs rounded up,1
+Total trades conducted,3
+Account starting balance,50000
+Account ending balance,51010.394445494436
+Account share balance,0
+Account Close Value,0
+Profit/Loss,1010.3944454944358
+Total Percentage return (whole period),2.0207888909888716
+Percentage return per yr,2.0207888909888716
+Banking returns,50750.0
+RMSE,0.7408080412038712
+Number of right calls,176
+Right calls %,69.84126984126983
+Number of wrong calls,76
+Wrong calls %,30.158730158730158

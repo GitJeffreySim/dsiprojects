@@ -1,0 +1,13 @@
+Feature,Datatype,Dataset,Description,Range,Example
+Open,float64,lstm_data,Opening price at the start of a trading period,6.32 to 60.9,13.98
+High,float64,lstm_data,Highest price in a trading period,6.89 to 61.32,17.23
+Low,float64,lstm_data,Lowest price in a trading period,6.07 to 59.13,41.83
+Volume,float64,lstm_data,Total volume in a trading period,922900.0 to 560040200.0,45124500
+Close,float64,lstm_data,Closing price at the end of a trading period,6.43 to 59.87,10.6
+SMA20,float64,lstm_data,"A simple moving average (SMA) calculates the average of a selected range of prices, usually closing prices, by the number of periods in that range. In this case, we are using the 20 periods moving average.",7.67 to 54.5,20.1
+RSI14,float64,lstm_data,The relative strength index (RSI) is a momentum indicator used in technical analysis that measures the magnitude of recent price changes to evaluate overbought or oversold conditions in the price of a stock or other asset.,17.23 to 86.76,49.84
+MOM5,float64,lstm_data,The Momentum indicator is a measurement of the acceleration and deceleration of prices. It indicates if prices are increasing at an increasing rate or decreasing at a decreasing rate.,-13.41 to 9.72,-0.37
+OBV,float64,lstm_data,"On-balance volume (OBV), a momentum indicator that measures positive and negative volume flow.",16240337975.0 to 22632400875.0,20637656075
+ATR14,float64,lstm_data,Average true range (ATR) is a market volatility indicator used in technical analysis. It is typically derived from the 14-day simple moving average of a series of true range indicators.,0.19 to 3.69,0.5
+recom_type_ordinal,float64,lstm_data,"An ordinal feature to represent analyst's recommendations. 0=bad, 5=good",0.0 to 5.0,0
+compound,float64,lstm_data,A numerical feature based on VADER sentimental analysis scoring metric,-0.27 to 0.54,0

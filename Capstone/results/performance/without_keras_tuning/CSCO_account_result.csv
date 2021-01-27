@@ -1,0 +1,22 @@
+Description,CSCO
+Strategy Name,Long Term Simple Strategy
+Trade actions from,2000-01-03 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,5166
+In yrs rounded up,20
+Total trades conducted,66
+Account starting balance,50000
+Account ending balance,90949.76705597235
+Account share balance,0
+Account Close Value,0
+Profit/Loss,40949.76705597235
+Total Percentage return (whole period),81.89953411194469
+Percentage return per yr,4.094976705597235
+Banking returns,67342.75
+RMSE,0.6130559469926499
+Number of right calls,3159
+Right calls %,61.14982578397212
+Number of wrong calls,2007
+Wrong calls %,38.850174216027874

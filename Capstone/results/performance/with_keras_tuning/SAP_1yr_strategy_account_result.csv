@@ -1,0 +1,22 @@
+Description,SAP
+Strategy Name,Short Term Simple Strategy
+Trade actions from,2019-10-12 00:00:00
+Trade actions to,2020-10-11 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,250
+In yrs rounded up,1
+Total trades conducted,4
+Account starting balance,50000
+Account ending balance,50778.75065515637
+Account share balance,0
+Account Close Value,0
+Profit/Loss,778.7506551563711
+Total Percentage return (whole period),1.5575013103127422
+Percentage return per yr,1.5575013103127422
+Banking returns,50750.0
+RMSE,2.778961475437164
+Number of right calls,111
+Right calls %,44.4
+Number of wrong calls,139
+Wrong calls %,55.60000000000001

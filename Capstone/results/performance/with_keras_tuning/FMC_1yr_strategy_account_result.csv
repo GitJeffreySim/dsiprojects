@@ -1,0 +1,22 @@
+Description,FMC
+Strategy Name,Short Term Simple Strategy
+Trade actions from,2019-10-09 00:00:00
+Trade actions to,2020-10-08 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,253
+In yrs rounded up,1
+Total trades conducted,16
+Account starting balance,50000
+Account ending balance,13035.206030241894
+Account share balance,600
+Account Close Value,63364.846801757805
+Profit/Loss,26400.052831999696
+Total Percentage return (whole period),52.80010566399939
+Percentage return per yr,52.80010566399939
+Banking returns,50750.0
+RMSE,1.64504460180078
+Number of right calls,139
+Right calls %,54.509803921568626
+Number of wrong calls,116
+Wrong calls %,45.490196078431374

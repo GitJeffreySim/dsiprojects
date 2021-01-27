@@ -1,0 +1,22 @@
+Description,SAP
+Strategy Name,Long Term Simple Strategy
+Trade actions from,2000-01-03 00:00:00
+Trade actions to,2020-10-11 00:00:00
+Look back periods,60
+Prediction periods,1
+Total number of trade days,5167
+In yrs rounded up,20
+Total trades conducted,240
+Account starting balance,50000
+Account ending balance,201108.51414417117
+Account share balance,0
+Account Close Value,0
+Profit/Loss,151108.51414417117
+Total Percentage return (whole period),302.21702828834236
+Percentage return per yr,15.110851414417118
+Banking returns,67342.75
+RMSE,8.26109526048072
+Number of right calls,2835
+Right calls %,54.86742790787691
+Number of wrong calls,2332
+Wrong calls %,45.13257209212309

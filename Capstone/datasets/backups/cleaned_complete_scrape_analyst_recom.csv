@@ -1,0 +1,401 @@
+date,recom_type,source,ticker,recom_type_ordinal
+2020-11-10,Resumed,Bernstein,ABBV,4
+2020-09-29,Initiated,Berenberg,ABBV,2
+2020-06-23,Upgrade,Atlantic Equities,ABBV,5
+2020-06-09,Upgrade,Wolfe Research,ABBV,5
+2020-06-02,Upgrade,Argus,ABBV,5
+2020-05-18,Resumed,BofA/Merrill,ABBV,4
+2020-05-12,Upgrade,JP Morgan,ABBV,5
+2020-05-11,Resumed,Morgan Stanley,ABBV,4
+2020-04-20,Upgrade,RBC Capital Mkts,ABBV,5
+2020-03-23,Downgrade,Societe Generale,ABBV,1
+2020-02-27,Initiated,Barclays,ABBV,2
+2020-02-06,Initiated,Mizuho,ABBV,2
+2020-01-07,Initiated,RBC Capital Mkts,ABBV,2
+2019-12-26,Reiterated,Cowen,ABBV,3
+2019-09-26,Upgrade,Citigroup,ABBV,5
+2019-08-20,Upgrade,Piper Jaffray,ABBV,5
+2019-06-27,Upgrade,Wolfe Research,ABBV,5
+2019-06-26,Upgrade,SVB Leerink,ABBV,5
+2019-05-28,Initiated,Goldman,ABBV,2
+2019-04-29,Upgrade,BMO Capital Markets,ABBV,5
+2021-01-05,Downgrade,Credit Suisse,CAG,1
+2020-06-22,Upgrade,Jefferies,CAG,5
+2020-05-18,Downgrade,Standpoint Research,CAG,1
+2020-05-11,Downgrade,SunTrust,CAG,1
+2020-03-18,Upgrade,Bernstein,CAG,5
+2020-02-27,Upgrade,Standpoint Research,CAG,5
+2020-01-23,Initiated,Jefferies,CAG,2
+2020-01-22,Initiated,Jefferies,CAG,2
+2019-12-12,Resumed,Deutsche Bank,CAG,4
+2019-11-14,Initiated,Berenberg,CAG,2
+2019-10-17,Resumed,RBC Capital Mkts,CAG,4
+2019-09-06,Downgrade,Goldman,CAG,1
+2019-06-12,Initiated,Evercore ISI,CAG,2
+2019-05-20,Resumed,Morgan Stanley,CAG,4
+2019-05-14,Initiated,SunTrust,CAG,2
+2019-04-11,Reiterated,BofA/Merrill,CAG,3
+2018-11-14,Downgrade,Bernstein,CAG,1
+2018-10-31,Resumed,Credit Suisse,CAG,4
+2017-12-22,Reiterated,Stifel,CAG,3
+2017-12-14,Upgrade,Bernstein,CAG,5
+2020-11-13,Upgrade,New Street,CSCO,5
+2020-10-12,Downgrade,Citigroup,CSCO,1
+2020-09-23,Resumed,UBS,CSCO,4
+2020-09-18,Downgrade,Wolfe Research,CSCO,1
+2020-07-24,Initiated,Wolfe Research,CSCO,2
+2020-07-16,Downgrade,JP Morgan,CSCO,1
+2020-07-09,Upgrade,Morgan Stanley,CSCO,5
+2020-06-16,Upgrade,BofA/Merrill,CSCO,5
+2020-06-10,Downgrade,Robert W. Baird,CSCO,1
+2020-04-17,Downgrade,KeyBanc Capital Markets,CSCO,1
+2020-02-27,Upgrade,Standpoint Research,CSCO,5
+2020-01-08,Downgrade,BofA/Merrill,CSCO,1
+2019-12-19,Upgrade,Barclays,CSCO,5
+2019-12-12,Upgrade,Edward Jones,CSCO,5
+2019-11-14,Reiterated,BofA/Merrill,CSCO,3
+2019-11-13,Resumed,RBC Capital Mkts,CSCO,4
+2019-11-11,Downgrade,Piper Jaffray,CSCO,1
+2019-10-10,Downgrade,Goldman,CSCO,1
+2019-09-11,Initiated,Evercore ISI,CSCO,2
+2019-08-15,Reiterated,RBC Capital Mkts,CSCO,3
+2021-01-20,Downgrade,Credit Suisse,GSK,1
+2021-01-15,Initiated,Deutsche Bank,GSK,2
+2020-11-02,Upgrade,Liberum,GSK,5
+2020-09-29,Initiated,Berenberg,GSK,2
+2020-02-12,Downgrade,Shore Capital,GSK,1
+2020-01-16,Downgrade,Barclays,GSK,1
+2019-12-02,Initiated,SVB Leerink,GSK,2
+2019-11-21,Upgrade,UBS,GSK,5
+2019-10-11,Upgrade,Cantor Fitzgerald,GSK,5
+2019-09-03,Upgrade,Societe Generale,GSK,5
+2019-09-03,Resumed,Citigroup,GSK,4
+2019-08-13,Resumed,JP Morgan,GSK,4
+2019-06-17,Resumed,Morgan Stanley,GSK,4
+2019-03-08,Downgrade,Shore Capital,GSK,1
+2019-02-22,Downgrade,UBS,GSK,1
+2019-01-14,Downgrade,Exane BNP Paribas,GSK,1
+2018-12-11,Resumed,Jefferies,GSK,4
+2018-10-09,Initiated,Guggenheim,GSK,2
+2018-08-30,Downgrade,Liberum,GSK,1
+2018-04-04,Upgrade,Exane BNP Paribas,GSK,5
+2021-01-07,Downgrade,Robert W. Baird,LMT,1
+2020-09-08,Initiated,Morgan Stanley,LMT,2
+2020-05-21,Initiated,RBC Capital Mkts,LMT,2
+2020-05-19,Initiated,Seaport Global Securities,LMT,2
+2020-03-25,Upgrade,DZ Bank,LMT,5
+2020-01-29,Downgrade,Alembic Global Advisors,LMT,1
+2019-04-24,Reiterated,BofA/Merrill,LMT,3
+2019-01-10,Initiated,Susquehanna,LMT,2
+2019-01-10,Downgrade,Morgan Stanley,LMT,1
+2018-07-26,Upgrade,Berenberg,LMT,5
+2018-07-25,Reiterated,Stifel,LMT,3
+2018-03-29,Initiated,Barclays,LMT,2
+2018-02-23,Reiterated,Morgan Stanley,LMT,3
+2018-02-06,Reiterated,Argus,LMT,3
+2018-01-30,Reiterated,Stifel,LMT,3
+2018-01-16,Downgrade,Wells Fargo,LMT,1
+2017-10-25,Reiterated,Stifel,LMT,3
+2017-10-25,Reiterated,RBC Capital Mkts,LMT,3
+2017-08-08,Initiated,Morgan Stanley,LMT,2
+2017-01-25,Reiterated,RBC Capital Mkts,LMT,3
+2020-11-10,Resumed,Bernstein,MRK,4
+2020-09-29,Initiated,Berenberg,MRK,2
+2020-08-03,Upgrade,Goldman,MRK,5
+2020-06-12,Downgrade,Wolfe Research,MRK,1
+2020-02-27,Initiated,Barclays,MRK,2
+2020-01-07,Initiated,RBC Capital Mkts,MRK,2
+2019-10-17,Resumed,BofA/Merrill,MRK,4
+2019-08-16,Initiated,SVB Leerink,MRK,2
+2019-07-03,Initiated,Mizuho,MRK,2
+2019-05-28,Initiated,Goldman,MRK,2
+2019-05-13,Upgrade,Atlantic Equities,MRK,5
+2018-10-16,Reiterated,Citigroup,MRK,3
+2018-10-09,Resumed,Guggenheim,MRK,4
+2018-04-23,Upgrade,Goldman,MRK,5
+2018-04-17,Upgrade,Morgan Stanley,MRK,5
+2018-04-05,Upgrade,Barclays,MRK,5
+2018-03-12,Upgrade,Leerink Partners,MRK,5
+2018-02-14,Reiterated,Leerink Partners,MRK,3
+2018-02-07,Reiterated,Morgan Stanley,MRK,3
+2018-01-16,Upgrade,SunTrust,MRK,5
+2020-10-02,Initiated,Barclays,RCI,2
+2020-03-31,Upgrade,Scotiabank,RCI,5
+2019-10-24,Upgrade,RBC Capital Mkts,RCI,5
+2019-07-08,Downgrade,JP Morgan,RCI,1
+2019-05-01,Upgrade,Desjardins,RCI,5
+2019-04-22,Downgrade,Scotia Howard Weil,RCI,1
+2019-01-25,Downgrade,Macquarie,RCI,1
+2018-11-29,Downgrade,Edward Jones,RCI,1
+2018-10-22,Downgrade,Desjardins,RCI,1
+2018-07-20,Reiterated,Barclays,RCI,3
+2018-01-26,Downgrade,National Bank Financial,RCI,1
+2018-01-08,Upgrade,Desjardins,RCI,5
+2017-04-05,Downgrade,CIBC,RCI,1
+2017-01-09,Downgrade,RBC Capital Mkts,RCI,1
+2016-07-05,Resumed,BofA/Merrill,RCI,4
+2016-04-19,Reiterated,RBC Capital Mkts,RCI,3
+2015-12-17,Downgrade,Morgan Stanley,RCI,1
+2015-12-11,Upgrade,TD Securities,RCI,5
+2015-12-04,Initiated,Goldman,RCI,2
+2015-10-23,Reiterated,Barclays,RCI,3
+2021-01-21,Upgrade,Credit Suisse,TRP,5
+2021-01-21,Upgrade,BMO Capital Markets,TRP,5
+2021-01-12,Downgrade,Barclays,TRP,1
+2021-01-06,Downgrade,BofA Securities,TRP,1
+2020-10-15,Upgrade,Goldman,TRP,5
+2020-07-15,Upgrade,Scotiabank,TRP,5
+2020-07-09,Initiated,Raymond James,TRP,2
+2020-06-01,Upgrade,Morgan Stanley,TRP,5
+2020-05-13,Downgrade,BMO Capital Markets,TRP,1
+2020-05-12,Initiated,Jefferies,TRP,2
+2020-03-16,Upgrade,UBS,TRP,5
+2020-03-09,Upgrade,BofA/Merrill,TRP,5
+2020-03-05,Initiated,Barclays,TRP,2
+2020-02-24,Upgrade,Goldman,TRP,5
+2020-01-06,Initiated,Morgan Stanley,TRP,2
+2019-12-18,Resumed,BofA/Merrill,TRP,4
+2019-05-29,Downgrade,Credit Suisse,TRP,1
+2019-01-24,Initiated,Macquarie,TRP,2
+2019-01-03,Downgrade,Goldman,TRP,1
+2018-10-09,Initiated,Goldman,TRP,2
+2020-10-08,Downgrade,Itau BBA,VALE,1
+2020-06-05,Upgrade,Exane BNP Paribas,VALE,5
+2020-06-03,Upgrade,UBS,VALE,5
+2020-05-11,Upgrade,RBC Capital Mkts,VALE,5
+2020-04-01,Upgrade,BMO Capital Markets,VALE,5
+2020-03-31,Upgrade,Goldman,VALE,5
+2020-03-20,Upgrade,Deutsche Bank,VALE,5
+2020-03-17,Upgrade,Citigroup,VALE,5
+2020-03-11,Upgrade,HSBC Securities,VALE,5
+2020-03-03,Upgrade,Morgan Stanley,VALE,5
+2019-12-11,Upgrade,Jefferies,VALE,5
+2019-09-10,Upgrade,Macquarie,VALE,5
+2019-09-05,Upgrade,Exane BNP Paribas,VALE,5
+2019-05-24,Upgrade,RBC Capital Mkts,VALE,5
+2019-05-24,Upgrade,BofA/Merrill,VALE,5
+2019-02-19,Initiated,Goldman,VALE,2
+2019-02-07,Downgrade,Morgan Stanley,VALE,1
+2019-01-28,Downgrade,Macquarie,VALE,1
+2019-01-28,Downgrade,Jefferies,VALE,1
+2019-01-28,Downgrade,HSBC Securities,VALE,1
+2020-12-02,Upgrade,MoffettNathanson,VZ,5
+2020-11-16,Resumed,Wells Fargo,VZ,4
+2020-11-05,Upgrade,JP Morgan,VZ,5
+2020-10-20,Initiated,Wolfe Research,VZ,2
+2020-09-08,Upgrade,Argus,VZ,5
+2020-03-16,Upgrade,Raymond James,VZ,5
+2020-03-02,Upgrade,Cowen,VZ,5
+2020-02-03,Downgrade,Credit Suisse,VZ,1
+2020-01-22,Initiated,Deutsche Bank,VZ,2
+2019-11-14,Downgrade,HSBC Securities,VZ,1
+2019-11-04,Downgrade,Nomura,VZ,1
+2019-10-16,Initiated,Bernstein,VZ,2
+2019-07-08,Downgrade,Citigroup,VZ,1
+2019-05-30,Downgrade,UBS,VZ,1
+2018-12-12,Downgrade,Morgan Stanley,VZ,1
+2018-12-03,Downgrade,JP Morgan,VZ,1
+2018-10-29,Reiterated,Morgan Stanley,VZ,3
+2018-09-04,Downgrade,MoffettNathanson,VZ,1
+2018-09-04,Downgrade,Barclays,VZ,1
+2018-07-11,Initiated,Credit Suisse,VZ,2
+2020-09-11,Initiated,Wolfe Research,ABT,2
+2020-06-01,Downgrade,Goldman,ABT,1
+2020-03-05,Initiated,Citigroup,ABT,2
+2020-02-13,Initiated,Goldman,ABT,2
+2020-02-06,Resumed,BTIG Research,ABT,4
+2020-01-02,Downgrade,Guggenheim,ABT,1
+2019-06-13,Reiterated,BofA/Merrill,ABT,3
+2019-02-07,Reiterated,BofA/Merrill,ABT,3
+2019-01-02,Downgrade,Citigroup,ABT,1
+2018-11-30,Upgrade,Goldman,ABT,5
+2018-10-16,Initiated,Barclays,ABT,2
+2018-06-27,Initiated,Bernstein,ABT,2
+2018-01-30,Reiterated,Citigroup,ABT,3
+2018-01-25,Upgrade,William Blair,ABT,5
+2018-01-25,Reiterated,Stifel,ABT,3
+2018-01-03,Initiated,Evercore ISI,ABT,2
+2018-01-02,Upgrade,Morgan Stanley,ABT,5
+2018-01-02,Upgrade,JP Morgan,ABT,5
+2017-10-19,Reiterated,Stifel,ABT,3
+2017-10-19,Reiterated,RBC Capital Mkts,ABT,3
+2021-01-13,Downgrade,RBC Capital Mkts,AJG,1
+2021-01-11,Downgrade,Credit Suisse,AJG,1
+2021-01-08,Downgrade,Goldman,AJG,1
+2020-12-17,Initiated,Evercore ISI,AJG,2
+2020-11-02,Upgrade,Piper Sandler,AJG,5
+2020-08-21,Downgrade,BofA Securities,AJG,1
+2020-07-07,Upgrade,Deutsche Bank,AJG,5
+2020-03-26,Upgrade,RBC Capital Mkts,AJG,5
+2020-03-23,Upgrade,Raymond James,AJG,5
+2020-03-17,Upgrade,Keefe Bruyette,AJG,5
+2018-08-07,Initiated,Credit Suisse,AJG,2
+2018-06-18,Initiated,Goldman,AJG,2
+2018-03-09,Upgrade,William Blair,AJG,5
+2018-02-20,Reiterated,Barclays,AJG,3
+2017-10-04,Downgrade,Deutsche Bank,AJG,1
+2017-08-11,Reiterated,Barclays,AJG,3
+2017-05-02,Downgrade,Raymond James,AJG,1
+2016-12-01,Downgrade,Citigroup,AJG,1
+2016-11-15,Downgrade,Goldman,AJG,1
+2016-07-29,Reiterated,Compass Point,AJG,3
+2020-10-16,Resumed,Jefferies,DG,4
+2020-10-09,Initiated,Wolfe Research,DG,2
+2020-08-28,Reiterated,Telsey Advisory Group,DG,3
+2020-08-24,Reiterated,Telsey Advisory Group,DG,3
+2020-08-06,Resumed,Credit Suisse,DG,4
+2020-05-29,Reiterated,Telsey Advisory Group,DG,3
+2020-05-22,Reiterated,Telsey Advisory Group,DG,3
+2020-05-18,Initiated,Goldman,DG,2
+2020-04-30,Downgrade,Loop Capital,DG,1
+2020-04-02,Upgrade,Cleveland Research,DG,5
+2020-04-01,Resumed,Citigroup,DG,4
+2020-03-31,Upgrade,Wells Fargo,DG,5
+2020-03-13,Upgrade,Evercore ISI,DG,5
+2020-02-28,Upgrade,Jefferies,DG,5
+2020-02-24,Resumed,Raymond James,DG,4
+2019-12-06,Reiterated,Telsey Advisory Group,DG,3
+2019-09-10,Downgrade,Bernstein,DG,1
+2019-08-30,Reiterated,Telsey Advisory Group,DG,3
+2019-08-08,Upgrade,Goldman,DG,5
+2019-07-25,Downgrade,Wells Fargo,DG,1
+2021-01-14,Initiated,BMO Capital Markets,FBHS,2
+2020-12-09,Initiated,UBS,FBHS,2
+2020-09-10,Upgrade,KeyBanc Capital Markets,FBHS,5
+2020-06-26,Downgrade,RBC Capital Mkts,FBHS,1
+2020-05-28,Initiated,Credit Suisse,FBHS,2
+2020-04-17,Upgrade,Nomura,FBHS,5
+2020-04-16,Downgrade,Robert W. Baird,FBHS,1
+2020-04-02,Downgrade,Evercore ISI,FBHS,1
+2020-03-16,Upgrade,RBC Capital Mkts,FBHS,5
+2020-01-30,Upgrade,Loop Capital,FBHS,5
+2020-01-07,Downgrade,BofA/Merrill,FBHS,1
+2019-12-17,Downgrade,RBC Capital Mkts,FBHS,1
+2019-11-21,Initiated,Deutsche Bank,FBHS,2
+2019-10-28,Upgrade,SunTrust,FBHS,5
+2019-07-02,Downgrade,Loop Capital,FBHS,1
+2019-05-06,Upgrade,BofA/Merrill,FBHS,5
+2019-01-07,Upgrade,Evercore ISI,FBHS,5
+2019-01-04,Upgrade,BofA/Merrill,FBHS,5
+2018-12-18,Downgrade,Loop Capital,FBHS,1
+2018-12-10,Upgrade,Goldman,FBHS,5
+2020-09-17,Initiated,UBS,FMC,2
+2020-03-26,Initiated,KeyBanc Capital Markets,FMC,2
+2020-03-13,Upgrade,BofA/Merrill,FMC,5
+2019-10-16,Upgrade,Robert W. Baird,FMC,5
+2019-10-16,Initiated,Wells Fargo,FMC,2
+2019-09-18,Initiated,Exane BNP Paribas,FMC,2
+2019-08-09,Upgrade,RBC Capital Mkts,FMC,5
+2019-08-02,Upgrade,Goldman,FMC,5
+2019-08-01,Downgrade,BofA/Merrill,FMC,1
+2019-06-13,Resumed,Citigroup,FMC,4
+2019-05-20,Initiated,Morgan Stanley,FMC,2
+2019-04-18,Downgrade,RBC Capital Mkts,FMC,1
+2019-03-21,Reiterated,Jefferies,FMC,3
+2019-03-08,Resumed,Goldman,FMC,4
+2018-11-14,Initiated,Buckingham Research,FMC,2
+2018-11-09,Resumed,Loop Capital,FMC,4
+2018-11-05,Resumed,Credit Suisse,FMC,4
+2018-11-05,Resumed,Citigroup,FMC,4
+2018-05-14,Upgrade,Goldman,FMC,5
+2018-05-04,Upgrade,Stephens,FMC,5
+2020-09-23,Upgrade,Barclays,LDOS,5
+2020-09-22,Upgrade,JP Morgan,LDOS,5
+2020-08-21,Initiated,Evercore ISI,LDOS,2
+2020-05-07,Resumed,Credit Suisse,LDOS,4
+2020-04-20,Upgrade,Citigroup,LDOS,5
+2020-03-31,Initiated,William Blair,LDOS,2
+2020-03-03,Upgrade,Wells Fargo,LDOS,5
+2020-03-02,Upgrade,Stifel,LDOS,5
+2020-02-19,Downgrade,CFRA,LDOS,1
+2020-01-09,Downgrade,Wells Fargo,LDOS,1
+2019-09-24,Initiated,JP Morgan,LDOS,2
+2019-09-20,Initiated,Barclays,LDOS,2
+2019-07-09,Downgrade,Citigroup,LDOS,1
+2019-06-03,Initiated,Morgan Stanley,LDOS,2
+2019-05-09,Resumed,Goldman,LDOS,4
+2018-06-18,Downgrade,Goldman,LDOS,1
+2018-02-26,Reiterated,Citigroup,LDOS,3
+2017-11-21,Resumed,Stifel,LDOS,4
+2017-10-25,Upgrade,Wells Fargo,LDOS,5
+2017-10-05,Resumed,Jefferies,LDOS,4
+2020-11-09,Upgrade,BMO Capital Markets,MGA,5
+2020-11-09,Downgrade,Morgan Stanley,MGA,1
+2020-04-27,Upgrade,Credit Suisse,MGA,5
+2020-04-15,Initiated,Goldman,MGA,2
+2020-03-30,Upgrade,Morgan Stanley,MGA,5
+2020-03-24,Upgrade,KeyBanc Capital Markets,MGA,5
+2020-01-09,Initiated,The Benchmark Company,MGA,2
+2019-12-17,Resumed,RBC Capital Mkts,MGA,4
+2019-06-27,Initiated,Credit Suisse,MGA,2
+2019-05-01,Downgrade,Wolfe Research,MGA,1
+2019-04-16,Initiated,Seaport Global Securities,MGA,2
+2019-04-15,Downgrade,CIBC,MGA,1
+2019-02-22,Downgrade,TD Securities,MGA,1
+2019-01-10,Upgrade,TD Securities,MGA,5
+2018-10-02,Initiated,Wolfe Research,MGA,2
+2018-05-14,Initiated,Evercore ISI,MGA,2
+2018-03-22,Downgrade,Morgan Stanley,MGA,1
+2018-01-19,Downgrade,TD Securities,MGA,1
+2018-01-12,Upgrade,Wells Fargo,MGA,5
+2018-01-09,Reiterated,Macquarie,MGA,3
+2020-05-18,Downgrade,Standpoint Research,NEM,1
+2020-04-16,Downgrade,Barclays,NEM,1
+2020-04-09,Initiated,JP Morgan,NEM,2
+2020-02-24,Upgrade,CIBC,NEM,5
+2020-02-06,Initiated,UBS,NEM,2
+2020-01-13,Upgrade,B. Riley FBR,NEM,5
+2019-12-05,Resumed,RBC Capital Mkts,NEM,4
+2019-10-03,Upgrade,Deutsche Bank,NEM,5
+2019-09-13,Initiated,Macquarie,NEM,2
+2019-09-11,Upgrade,BMO Capital Markets,NEM,5
+2019-09-09,Upgrade,RBC Capital Mkts,NEM,5
+2019-05-23,Upgrade,Citigroup,NEM,5
+2019-04-22,Upgrade,TD Securities,NEM,5
+2019-03-19,Resumed,B. Riley FBR,NEM,4
+2019-01-15,Downgrade,CIBC,NEM,1
+2018-06-12,Upgrade,Morgan Stanley,NEM,5
+2018-03-12,Downgrade,RBC Capital Mkts,NEM,1
+2018-01-16,Downgrade,Deutsche Bank,NEM,1
+2017-07-27,Upgrade,Argus,NEM,5
+2017-03-16,Downgrade,RBC Capital Mkts,NEM,1
+2020-12-16,Downgrade,B. Riley Securities,PWR,1
+2020-10-21,Downgrade,DA Davidson,PWR,1
+2020-09-23,Initiated,Bernstein,PWR,2
+2020-05-28,Initiated,Northland Capital,PWR,2
+2020-01-07,Upgrade,Robert W. Baird,PWR,5
+2019-12-20,Upgrade,DA Davidson,PWR,5
+2019-08-23,Initiated,Vertical Research,PWR,2
+2019-03-11,Reiterated,B. Riley FBR,PWR,3
+2018-02-26,Reiterated,"B. Riley FBR, Inc.",PWR,3
+2017-10-11,Resumed,Seaport Global Securities,PWR,4
+2017-08-18,Upgrade,Citigroup,PWR,5
+2017-08-04,Upgrade,Johnson Rice,PWR,5
+2017-08-03,Upgrade,FBR & Co.,PWR,5
+2017-07-26,Downgrade,Robert W. Baird,PWR,1
+2017-04-07,Reiterated,FBR & Co.,PWR,3
+2016-11-15,Upgrade,Robert W. Baird,PWR,5
+2016-09-23,Reiterated,Stifel,PWR,3
+2016-08-05,Upgrade,Stifel,PWR,5
+2016-05-06,Reiterated,Maxim Group,PWR,3
+2016-05-06,Reiterated,FBR Capital,PWR,3
+2020-11-06,Downgrade,Citigroup,SAP,1
+2020-11-02,Downgrade,UBS,SAP,1
+2020-10-28,Downgrade,Argus,SAP,1
+2020-10-26,Downgrade,JP Morgan,SAP,1
+2020-10-26,Downgrade,Exane BNP Paribas,SAP,1
+2020-06-16,Reiterated,Oppenheimer,SAP,3
+2020-04-22,Downgrade,RBC Capital Mkts,SAP,1
+2020-04-09,Upgrade,Deutsche Bank,SAP,5
+2019-12-17,Downgrade,BofA/Merrill,SAP,1
+2019-07-22,Initiated,Jefferies,SAP,2
+2019-07-19,Downgrade,Deutsche Bank,SAP,1
+2019-06-17,Upgrade,HSBC Securities,SAP,5
+2019-04-29,Upgrade,RBC Capital Mkts,SAP,5
+2019-04-25,Reiterated,BMO Capital Markets,SAP,3
+2019-04-09,Downgrade,UBS,SAP,1
+2019-04-09,Downgrade,HSBC Securities,SAP,1
+2019-02-04,Downgrade,BofA/Merrill,SAP,1
+2018-07-20,Reiterated,Barclays,SAP,3
+2018-06-01,Initiated,Jefferies,SAP,2
+2018-03-12,Upgrade,Evercore ISI,SAP,5

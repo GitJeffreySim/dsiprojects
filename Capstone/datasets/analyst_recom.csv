@@ -1,0 +1,401 @@
+date,recom_type,source,recom_action,target,ticker,recom_type_ordinal
+2020-11-10,Resumed,Bernstein,Outperform,120,ABBV,4
+2020-09-29,Initiated,Berenberg,Hold,98,ABBV,2
+2020-06-23,Upgrade,Atlantic Equities,Neutral to Overweight,115,ABBV,5
+2020-06-09,Upgrade,Wolfe Research,Peer-Perform to Outperform,,ABBV,5
+2020-06-02,Upgrade,Argus,Hold to Buy,115,ABBV,5
+2020-05-18,Resumed,BofA/Merrill,Neutral,95,ABBV,4
+2020-05-12,Upgrade,JP Morgan,Neutral to Overweight,105,ABBV,5
+2020-05-11,Resumed,Morgan Stanley,Overweight,95,ABBV,4
+2020-04-20,Upgrade,RBC Capital Mkts,Sector-Perform to Outperform,79-93,ABBV,5
+2020-03-23,Downgrade,Societe Generale,Buy to Hold,,ABBV,1
+2020-02-27,Initiated,Barclays,Equal-Weight,97,ABBV,2
+2020-02-06,Initiated,Mizuho,Buy,,ABBV,2
+2020-01-07,Initiated,RBC Capital Mkts,Sector-Perform,86,ABBV,2
+2019-12-26,Reiterated,Cowen,Outperform,90-98,ABBV,3
+2019-09-26,Upgrade,Citigroup,Neutral to Buy,87-90,ABBV,5
+2019-08-20,Upgrade,Piper Jaffray,Neutral to Overweight,80,ABBV,5
+2019-06-27,Upgrade,Wolfe Research,Underperform to Peer-Perform,,ABBV,5
+2019-06-26,Upgrade,SVB Leerink,Mkt-Perform to Outperform,88,ABBV,5
+2019-05-28,Initiated,Goldman,Neutral,,ABBV,2
+2019-04-29,Upgrade,BMO Capital Markets,Underperform to Market-Perform,,ABBV,5
+2021-01-05,Downgrade,Credit Suisse,Neutral to Underperform,38-34,CAG,1
+2020-06-22,Upgrade,Jefferies,Hold to Buy,41,CAG,5
+2020-05-18,Downgrade,Standpoint Research,Buy to Hold,,CAG,1
+2020-05-11,Downgrade,SunTrust,Buy to Hold,,CAG,1
+2020-03-18,Upgrade,Bernstein,Underperform to Mkt-Perform,26-30,CAG,5
+2020-02-27,Upgrade,Standpoint Research,Hold to Buy,,CAG,5
+2020-01-23,Initiated,Jefferies,Hold,,CAG,2
+2020-01-22,Initiated,Jefferies,Hold,,CAG,2
+2019-12-12,Resumed,Deutsche Bank,Hold,29,CAG,4
+2019-11-14,Initiated,Berenberg,Hold,29,CAG,2
+2019-10-17,Resumed,RBC Capital Mkts,Sector-Perform,30,CAG,4
+2019-09-06,Downgrade,Goldman,Buy to Neutral,33-31,CAG,1
+2019-06-12,Initiated,Evercore ISI,Outperform,,CAG,2
+2019-05-20,Resumed,Morgan Stanley,Equal-Weight,31,CAG,4
+2019-05-14,Initiated,SunTrust,Buy,35,CAG,2
+2019-04-11,Reiterated,BofA/Merrill,Buy,30-35,CAG,3
+2018-11-14,Downgrade,Bernstein,Mkt-Perform to Underperform,,CAG,1
+2018-10-31,Resumed,Credit Suisse,Neutral,,CAG,4
+2017-12-22,Reiterated,Stifel,Buy,38-42,CAG,3
+2017-12-14,Upgrade,Bernstein,Underperform to Mkt-Perform,,CAG,5
+2020-11-13,Upgrade,New Street,Neutral to Buy,60,CSCO,5
+2020-10-12,Downgrade,Citigroup,Buy to Neutral,48-43,CSCO,1
+2020-09-23,Resumed,UBS,Neutral,41,CSCO,4
+2020-09-18,Downgrade,Wolfe Research,Outperform to Peer-Perform,42,CSCO,1
+2020-07-24,Initiated,Wolfe Research,Outperform,,CSCO,2
+2020-07-16,Downgrade,JP Morgan,Overweight to Neutral,50,CSCO,1
+2020-07-09,Upgrade,Morgan Stanley,Equal-Weight to Overweight,54,CSCO,5
+2020-06-16,Upgrade,BofA/Merrill,Neutral to Buy,48-55,CSCO,5
+2020-06-10,Downgrade,Robert W. Baird,Outperform to Neutral,48,CSCO,1
+2020-04-17,Downgrade,KeyBanc Capital Markets,Overweight to Sector-Weight,,CSCO,1
+2020-02-27,Upgrade,Standpoint Research,Hold to Buy,,CSCO,5
+2020-01-08,Downgrade,BofA/Merrill,Buy to Neutral,,CSCO,1
+2019-12-19,Upgrade,Barclays,Equal-Weight to Overweight,53,CSCO,5
+2019-12-12,Upgrade,Edward Jones,Hold to Buy,,CSCO,5
+2019-11-14,Reiterated,BofA/Merrill,Buy,62-56,CSCO,3
+2019-11-13,Resumed,RBC Capital Mkts,Outperform,,CSCO,4
+2019-11-11,Downgrade,Piper Jaffray,Overweight to Neutral,55-51,CSCO,1
+2019-10-10,Downgrade,Goldman,Buy to Neutral,56-48,CSCO,1
+2019-09-11,Initiated,Evercore ISI,Outperform,,CSCO,2
+2019-08-15,Reiterated,RBC Capital Mkts,Outperform,64-53,CSCO,3
+2021-01-20,Downgrade,Credit Suisse,Neutral to Underperform,,GSK,1
+2021-01-15,Initiated,Deutsche Bank,Hold,,GSK,2
+2020-11-02,Upgrade,Liberum,Hold to Buy,,GSK,5
+2020-09-29,Initiated,Berenberg,Buy,,GSK,2
+2020-02-12,Downgrade,Shore Capital,Hold to Sell,,GSK,1
+2020-01-16,Downgrade,Barclays,Equal-Weight to Underweight,,GSK,1
+2019-12-02,Initiated,SVB Leerink,Outperform,,GSK,2
+2019-11-21,Upgrade,UBS,Neutral to Buy,,GSK,5
+2019-10-11,Upgrade,Cantor Fitzgerald,Hold to Buy,,GSK,5
+2019-09-03,Upgrade,Societe Generale,Sell to Buy,,GSK,5
+2019-09-03,Resumed,Citigroup,Neutral,,GSK,4
+2019-08-13,Resumed,JP Morgan,Neutral,,GSK,4
+2019-06-17,Resumed,Morgan Stanley,Underweight,,GSK,4
+2019-03-08,Downgrade,Shore Capital,Buy to Hold,,GSK,1
+2019-02-22,Downgrade,UBS,Buy to Neutral,,GSK,1
+2019-01-14,Downgrade,Exane BNP Paribas,Outperform to Neutral,,GSK,1
+2018-12-11,Resumed,Jefferies,Buy,,GSK,4
+2018-10-09,Initiated,Guggenheim,Neutral,,GSK,2
+2018-08-30,Downgrade,Liberum,Buy to Hold,,GSK,1
+2018-04-04,Upgrade,Exane BNP Paribas,Neutral to Outperform,,GSK,5
+2021-01-07,Downgrade,Robert W. Baird,Outperform to Neutral,420-368,LMT,1
+2020-09-08,Initiated,Morgan Stanley,Overweight,509,LMT,2
+2020-05-21,Initiated,RBC Capital Mkts,Sector-Perform,410,LMT,2
+2020-05-19,Initiated,Seaport Global Securities,Buy,435,LMT,2
+2020-03-25,Upgrade,DZ Bank,Hold to Buy,360,LMT,5
+2020-01-29,Downgrade,Alembic Global Advisors,Overweight to Neutral,,LMT,1
+2019-04-24,Reiterated,BofA/Merrill,Buy,390-400,LMT,3
+2019-01-10,Initiated,Susquehanna,Positive,321,LMT,2
+2019-01-10,Downgrade,Morgan Stanley,Overweight to Equal-Weight,,LMT,1
+2018-07-26,Upgrade,Berenberg,Hold to Buy,,LMT,5
+2018-07-25,Reiterated,Stifel,Buy,400-370,LMT,3
+2018-03-29,Initiated,Barclays,Equal-Weight,369,LMT,2
+2018-02-23,Reiterated,Morgan Stanley,Overweight,382-388,LMT,3
+2018-02-06,Reiterated,Argus,Buy,340-385,LMT,3
+2018-01-30,Reiterated,Stifel,Buy,345-400,LMT,3
+2018-01-16,Downgrade,Wells Fargo,Outperform to Market-Perform,,LMT,1
+2017-10-25,Reiterated,Stifel,Buy,320-340,LMT,3
+2017-10-25,Reiterated,RBC Capital Mkts,Sector-Perform,327-316,LMT,3
+2017-08-08,Initiated,Morgan Stanley,Overweight,342,LMT,2
+2017-01-25,Reiterated,RBC Capital Mkts,Sector-Perform,265-263,LMT,3
+2020-11-10,Resumed,Bernstein,Outperform,95,MRK,4
+2020-09-29,Initiated,Berenberg,Hold,88,MRK,2
+2020-08-03,Upgrade,Goldman,Neutral to Buy,91-105,MRK,5
+2020-06-12,Downgrade,Wolfe Research,Outperform to Peer-Perform,,MRK,1
+2020-02-27,Initiated,Barclays,Overweight,93,MRK,2
+2020-01-07,Initiated,RBC Capital Mkts,Sector-Perform,99,MRK,2
+2019-10-17,Resumed,BofA/Merrill,Neutral,90,MRK,4
+2019-08-16,Initiated,SVB Leerink,Outperform,,MRK,2
+2019-07-03,Initiated,Mizuho,Buy,97,MRK,2
+2019-05-28,Initiated,Goldman,Neutral,,MRK,2
+2019-05-13,Upgrade,Atlantic Equities,Neutral to Overweight,,MRK,5
+2018-10-16,Reiterated,Citigroup,Buy,70-79,MRK,3
+2018-10-09,Resumed,Guggenheim,Buy,,MRK,4
+2018-04-23,Upgrade,Goldman,Neutral to Buy,,MRK,5
+2018-04-17,Upgrade,Morgan Stanley,Equal-Weight to Overweight,,MRK,5
+2018-04-05,Upgrade,Barclays,Equal-Weight to Overweight,62-64,MRK,5
+2018-03-12,Upgrade,Leerink Partners,Mkt-Perform to Outperform,,MRK,5
+2018-02-14,Reiterated,Leerink Partners,Mkt-Perform,67-66,MRK,3
+2018-02-07,Reiterated,Morgan Stanley,Equal-Weight,60-63,MRK,3
+2018-01-16,Upgrade,SunTrust,Hold to Buy,,MRK,5
+2020-10-02,Initiated,Barclays,Equal-Weight,43,RCI,2
+2020-03-31,Upgrade,Scotiabank,Sector-Perform to Sector-Outperform,,RCI,5
+2019-10-24,Upgrade,RBC Capital Mkts,Sector-Perform to Outperform,,RCI,5
+2019-07-08,Downgrade,JP Morgan,Neutral to Underweight,,RCI,1
+2019-05-01,Upgrade,Desjardins,Hold to Buy,,RCI,5
+2019-04-22,Downgrade,Scotia Howard Weil,Sector-Outperform to Sector-Perform,,RCI,1
+2019-01-25,Downgrade,Macquarie,Outperform to Neutral,,RCI,1
+2018-11-29,Downgrade,Edward Jones,Buy to Hold,,RCI,1
+2018-10-22,Downgrade,Desjardins,Buy to Hold,,RCI,1
+2018-07-20,Reiterated,Barclays,Equal-Weight,54-53,RCI,3
+2018-01-26,Downgrade,National Bank Financial,Outperform to Sector-Perform,,RCI,1
+2018-01-08,Upgrade,Desjardins,Hold to Buy,,RCI,5
+2017-04-05,Downgrade,CIBC,Sector-Outperform to Sector-Perform,,RCI,1
+2017-01-09,Downgrade,RBC Capital Mkts,Outperform to Sector-Perform,56-55,RCI,1
+2016-07-05,Resumed,BofA/Merrill,Neutral,,RCI,4
+2016-04-19,Reiterated,RBC Capital Mkts,Outperform,55-54,RCI,3
+2015-12-17,Downgrade,Morgan Stanley,Overweight to Equal-Weight,,RCI,1
+2015-12-11,Upgrade,TD Securities,Hold to Buy,,RCI,5
+2015-12-04,Initiated,Goldman,Neutral,,RCI,2
+2015-10-23,Reiterated,Barclays,Equal-Weight,36-40,RCI,3
+2021-01-21,Upgrade,Credit Suisse,Neutral to Outperform,,TRP,5
+2021-01-21,Upgrade,BMO Capital Markets,Market-Perform to Outperform,,TRP,5
+2021-01-12,Downgrade,Barclays,Overweight to Equal-Weight,,TRP,1
+2021-01-06,Downgrade,BofA Securities,Buy to Neutral,,TRP,1
+2020-10-15,Upgrade,Goldman,Neutral to Buy,54-49,TRP,5
+2020-07-15,Upgrade,Scotiabank,Sector-Perform to Sector-Outperform,,TRP,5
+2020-07-09,Initiated,Raymond James,Mkt-Perform,,TRP,2
+2020-06-01,Upgrade,Morgan Stanley,Equal-Weight to Overweight,,TRP,5
+2020-05-13,Downgrade,BMO Capital Markets,Outperform to Market-Perform,,TRP,1
+2020-05-12,Initiated,Jefferies,Hold,,TRP,2
+2020-03-16,Upgrade,UBS,Neutral to Buy,,TRP,5
+2020-03-09,Upgrade,BofA/Merrill,Neutral to Buy,,TRP,5
+2020-03-05,Initiated,Barclays,Overweight,,TRP,2
+2020-02-24,Upgrade,Goldman,Sell to Neutral,,TRP,5
+2020-01-06,Initiated,Morgan Stanley,Underweight,,TRP,2
+2019-12-18,Resumed,BofA/Merrill,Neutral,,TRP,4
+2019-05-29,Downgrade,Credit Suisse,Outperform to Neutral,,TRP,1
+2019-01-24,Initiated,Macquarie,Neutral,,TRP,2
+2019-01-03,Downgrade,Goldman,Neutral to Sell,,TRP,1
+2018-10-09,Initiated,Goldman,Neutral,,TRP,2
+2020-10-08,Downgrade,Itau BBA,Outperform to Market-Perform,,VALE,1
+2020-06-05,Upgrade,Exane BNP Paribas,Neutral to Outperform,,VALE,5
+2020-06-03,Upgrade,UBS,Neutral to Buy,13-12,VALE,5
+2020-05-11,Upgrade,RBC Capital Mkts,Sector-Perform to Outperform,9.50,VALE,5
+2020-04-01,Upgrade,BMO Capital Markets,Market-Perform to Outperform,,VALE,5
+2020-03-31,Upgrade,Goldman,Neutral to Buy,,VALE,5
+2020-03-20,Upgrade,Deutsche Bank,Hold to Buy,11,VALE,5
+2020-03-17,Upgrade,Citigroup,Neutral to Buy,14-12,VALE,5
+2020-03-11,Upgrade,HSBC Securities,Hold to Buy,,VALE,5
+2020-03-03,Upgrade,Morgan Stanley,Equal-Weight to Overweight,13.50,VALE,5
+2019-12-11,Upgrade,Jefferies,Hold to Buy,,VALE,5
+2019-09-10,Upgrade,Macquarie,Neutral to Outperform,,VALE,5
+2019-09-05,Upgrade,Exane BNP Paribas,Underperform to Neutral,,VALE,5
+2019-05-24,Upgrade,RBC Capital Mkts,Underperform to Sector-Perform,,VALE,5
+2019-05-24,Upgrade,BofA/Merrill,Neutral to Buy,,VALE,5
+2019-02-19,Initiated,Goldman,Neutral,,VALE,2
+2019-02-07,Downgrade,Morgan Stanley,Overweight to Equal-Weight,,VALE,1
+2019-01-28,Downgrade,Macquarie,Outperform to Neutral,,VALE,1
+2019-01-28,Downgrade,Jefferies,Buy to Hold,,VALE,1
+2019-01-28,Downgrade,HSBC Securities,Buy to Hold,,VALE,1
+2020-12-02,Upgrade,MoffettNathanson,Neutral to Buy,59-66,VZ,5
+2020-11-16,Resumed,Wells Fargo,Equal-Weight,60,VZ,4
+2020-11-05,Upgrade,JP Morgan,Neutral to Overweight,61-65,VZ,5
+2020-10-20,Initiated,Wolfe Research,Peer-Perform,,VZ,2
+2020-09-08,Upgrade,Argus,Hold to Buy,68,VZ,5
+2020-03-16,Upgrade,Raymond James,Mkt-Perform to Outperform,,VZ,5
+2020-03-02,Upgrade,Cowen,Market-Perform to Outperform,61,VZ,5
+2020-02-03,Downgrade,Credit Suisse,Outperform to Neutral,65,VZ,1
+2020-01-22,Initiated,Deutsche Bank,Hold,63,VZ,2
+2019-11-14,Downgrade,HSBC Securities,Buy to Hold,65,VZ,1
+2019-11-04,Downgrade,Nomura,Buy to Neutral,67-65,VZ,1
+2019-10-16,Initiated,Bernstein,Mkt-Perform,,VZ,2
+2019-07-08,Downgrade,Citigroup,Buy to Neutral,62,VZ,1
+2019-05-30,Downgrade,UBS,Buy to Neutral,,VZ,1
+2018-12-12,Downgrade,Morgan Stanley,Overweight to Equal-Weight,,VZ,1
+2018-12-03,Downgrade,JP Morgan,Overweight to Neutral,,VZ,1
+2018-10-29,Reiterated,Morgan Stanley,Overweight,56-58,VZ,3
+2018-09-04,Downgrade,MoffettNathanson,Buy to Neutral,,VZ,1
+2018-09-04,Downgrade,Barclays,Overweight to Equal-Weight,56-50,VZ,1
+2018-07-11,Initiated,Credit Suisse,Outperform,,VZ,2
+2020-09-11,Initiated,Wolfe Research,Outperform,124,ABT,2
+2020-06-01,Downgrade,Goldman,Neutral to Sell,84,ABT,1
+2020-03-05,Initiated,Citigroup,Buy,96,ABT,2
+2020-02-13,Initiated,Goldman,Neutral,96,ABT,2
+2020-02-06,Resumed,BTIG Research,Neutral,,ABT,4
+2020-01-02,Downgrade,Guggenheim,Buy to Neutral,,ABT,1
+2019-06-13,Reiterated,BofA/Merrill,Buy,81-90,ABT,3
+2019-02-07,Reiterated,BofA/Merrill,Buy,73-81,ABT,3
+2019-01-02,Downgrade,Citigroup,Neutral to Sell,,ABT,1
+2018-11-30,Upgrade,Goldman,Neutral to Buy,,ABT,5
+2018-10-16,Initiated,Barclays,Overweight,80,ABT,2
+2018-06-27,Initiated,Bernstein,Outperform,73,ABT,2
+2018-01-30,Reiterated,Citigroup,Neutral,59-64,ABT,3
+2018-01-25,Upgrade,William Blair,Mkt-Perform to Outperform,,ABT,5
+2018-01-25,Reiterated,Stifel,Buy,63-71,ABT,3
+2018-01-03,Initiated,Evercore ISI,Outperform,,ABT,2
+2018-01-02,Upgrade,Morgan Stanley,Equal-Weight to Overweight,,ABT,5
+2018-01-02,Upgrade,JP Morgan,Neutral to Overweight,,ABT,5
+2017-10-19,Reiterated,Stifel,Buy,58-63,ABT,3
+2017-10-19,Reiterated,RBC Capital Mkts,Outperform,55-60,ABT,3
+2021-01-13,Downgrade,RBC Capital Mkts,Outperform to Sector-Perform,114-124,AJG,1
+2021-01-11,Downgrade,Credit Suisse,Outperform to Neutral,132,AJG,1
+2021-01-08,Downgrade,Goldman,Buy to Neutral,123-129,AJG,1
+2020-12-17,Initiated,Evercore ISI,Outperform,145,AJG,2
+2020-11-02,Upgrade,Piper Sandler,Neutral to Overweight,113-117,AJG,5
+2020-08-21,Downgrade,BofA Securities,Buy to Underperform,101,AJG,1
+2020-07-07,Upgrade,Deutsche Bank,Hold to Buy,120,AJG,5
+2020-03-26,Upgrade,RBC Capital Mkts,Sector-Perform to Outperform,104-98,AJG,5
+2020-03-23,Upgrade,Raymond James,Mkt-Perform to Strong-Buy,,AJG,5
+2020-03-17,Upgrade,Keefe Bruyette,Mkt-Perform to Outperform,107-110,AJG,5
+2018-08-07,Initiated,Credit Suisse,Outperform,,AJG,2
+2018-06-18,Initiated,Goldman,Buy,81,AJG,2
+2018-03-09,Upgrade,William Blair,Mkt-Perform to Outperform,,AJG,5
+2018-02-20,Reiterated,Barclays,Overweight,70-82,AJG,3
+2017-10-04,Downgrade,Deutsche Bank,Buy to Hold,,AJG,1
+2017-08-11,Reiterated,Barclays,Overweight,66-68,AJG,3
+2017-05-02,Downgrade,Raymond James,Outperform to Mkt-Perform,,AJG,1
+2016-12-01,Downgrade,Citigroup,Buy to Neutral,,AJG,1
+2016-11-15,Downgrade,Goldman,Neutral to Sell,,AJG,1
+2016-07-29,Reiterated,Compass Point,Buy,51-59,AJG,3
+2020-10-16,Resumed,Jefferies,Buy,246-260,DG,4
+2020-10-09,Initiated,Wolfe Research,Outperform,250,DG,2
+2020-08-28,Reiterated,Telsey Advisory Group,Outperform,225-240,DG,3
+2020-08-24,Reiterated,Telsey Advisory Group,Outperform,210-225,DG,3
+2020-08-06,Resumed,Credit Suisse,Neutral,182,DG,4
+2020-05-29,Reiterated,Telsey Advisory Group,Outperform,200-210,DG,3
+2020-05-22,Reiterated,Telsey Advisory Group,Outperform,182-200,DG,3
+2020-05-18,Initiated,Goldman,Buy,202,DG,2
+2020-04-30,Downgrade,Loop Capital,Buy to Hold,175,DG,1
+2020-04-02,Upgrade,Cleveland Research,Neutral to Buy,,DG,5
+2020-04-01,Resumed,Citigroup,Buy,184-190,DG,4
+2020-03-31,Upgrade,Wells Fargo,Equal-Weight to Overweight,175,DG,5
+2020-03-13,Upgrade,Evercore ISI,Underperform to In-line,,DG,5
+2020-02-28,Upgrade,Jefferies,Hold to Buy,,DG,5
+2020-02-24,Resumed,Raymond James,Strong-Buy,185,DG,4
+2019-12-06,Reiterated,Telsey Advisory Group,Outperform,168-170,DG,3
+2019-09-10,Downgrade,Bernstein,Outperform to Mkt-Perform,145,DG,1
+2019-08-30,Reiterated,Telsey Advisory Group,Outperform,145-168,DG,3
+2019-08-08,Upgrade,Goldman,Neutral to Buy,142-152,DG,5
+2019-07-25,Downgrade,Wells Fargo,Outperform to Market-Perform,140,DG,1
+2021-01-14,Initiated,BMO Capital Markets,Outperform,102,FBHS,2
+2020-12-09,Initiated,UBS,Buy,105,FBHS,2
+2020-09-10,Upgrade,KeyBanc Capital Markets,Sector-Weight to Overweight,95,FBHS,5
+2020-06-26,Downgrade,RBC Capital Mkts,Outperform to Sector-Perform,59,FBHS,1
+2020-05-28,Initiated,Credit Suisse,Neutral,64,FBHS,2
+2020-04-17,Upgrade,Nomura,Neutral to Buy,43-55,FBHS,5
+2020-04-16,Downgrade,Robert W. Baird,Outperform to Neutral,47,FBHS,1
+2020-04-02,Downgrade,Evercore ISI,Outperform to In-line,41,FBHS,1
+2020-03-16,Upgrade,RBC Capital Mkts,Sector-Perform to Outperform,68-59,FBHS,5
+2020-01-30,Upgrade,Loop Capital,Sell to Hold,45-72,FBHS,5
+2020-01-07,Downgrade,BofA/Merrill,Buy to Neutral,,FBHS,1
+2019-12-17,Downgrade,RBC Capital Mkts,Outperform to Sector-Perform,67,FBHS,1
+2019-11-21,Initiated,Deutsche Bank,Buy,76,FBHS,2
+2019-10-28,Upgrade,SunTrust,Hold to Buy,58-75,FBHS,5
+2019-07-02,Downgrade,Loop Capital,Hold to Sell,50,FBHS,1
+2019-05-06,Upgrade,BofA/Merrill,Neutral to Buy,,FBHS,5
+2019-01-07,Upgrade,Evercore ISI,In-line to Outperform,,FBHS,5
+2019-01-04,Upgrade,BofA/Merrill,Underperform to Neutral,,FBHS,5
+2018-12-18,Downgrade,Loop Capital,Buy to Hold,,FBHS,1
+2018-12-10,Upgrade,Goldman,Neutral to Buy,,FBHS,5
+2020-09-17,Initiated,UBS,Buy,127,FMC,2
+2020-03-26,Initiated,KeyBanc Capital Markets,Overweight,93,FMC,2
+2020-03-13,Upgrade,BofA/Merrill,Neutral to Buy,,FMC,5
+2019-10-16,Upgrade,Robert W. Baird,Neutral to Outperform,86-95,FMC,5
+2019-10-16,Initiated,Wells Fargo,Outperform,,FMC,2
+2019-09-18,Initiated,Exane BNP Paribas,Outperform,110,FMC,2
+2019-08-09,Upgrade,RBC Capital Mkts,Sector-Perform to Outperform,87-103,FMC,5
+2019-08-02,Upgrade,Goldman,Neutral to Buy,100,FMC,5
+2019-08-01,Downgrade,BofA/Merrill,Buy to Neutral,,FMC,1
+2019-06-13,Resumed,Citigroup,Buy,91-93,FMC,4
+2019-05-20,Initiated,Morgan Stanley,Equal-Weight,82,FMC,2
+2019-04-18,Downgrade,RBC Capital Mkts,Outperform to Sector-Perform,100-87,FMC,1
+2019-03-21,Reiterated,Jefferies,Buy,108-112,FMC,3
+2019-03-08,Resumed,Goldman,Neutral,81,FMC,4
+2018-11-14,Initiated,Buckingham Research,Buy,106,FMC,2
+2018-11-09,Resumed,Loop Capital,Buy,,FMC,4
+2018-11-05,Resumed,Credit Suisse,Outperform,,FMC,4
+2018-11-05,Resumed,Citigroup,Buy,,FMC,4
+2018-05-14,Upgrade,Goldman,Neutral to Buy,,FMC,5
+2018-05-04,Upgrade,Stephens,Equal-Weight to Overweight,,FMC,5
+2020-09-23,Upgrade,Barclays,Equal-Weight to Overweight,109-110,LDOS,5
+2020-09-22,Upgrade,JP Morgan,Neutral to Overweight,115,LDOS,5
+2020-08-21,Initiated,Evercore ISI,Outperform,,LDOS,2
+2020-05-07,Resumed,Credit Suisse,Outperform,133,LDOS,4
+2020-04-20,Upgrade,Citigroup,Neutral to Buy,115,LDOS,5
+2020-03-31,Initiated,William Blair,Outperform,,LDOS,2
+2020-03-03,Upgrade,Wells Fargo,Equal-Weight to Overweight,120,LDOS,5
+2020-03-02,Upgrade,Stifel,Hold to Buy,,LDOS,5
+2020-02-19,Downgrade,CFRA,Buy to Hold,,LDOS,1
+2020-01-09,Downgrade,Wells Fargo,Overweight to Equal-Weight,102,LDOS,1
+2019-09-24,Initiated,JP Morgan,Neutral,95,LDOS,2
+2019-09-20,Initiated,Barclays,Equal-Weight,97,LDOS,2
+2019-07-09,Downgrade,Citigroup,Buy to Neutral,75-83,LDOS,1
+2019-06-03,Initiated,Morgan Stanley,Equal-Weight,75,LDOS,2
+2019-05-09,Resumed,Goldman,Neutral,75,LDOS,4
+2018-06-18,Downgrade,Goldman,Buy to Neutral,,LDOS,1
+2018-02-26,Reiterated,Citigroup,Buy,71-75,LDOS,3
+2017-11-21,Resumed,Stifel,Hold,68,LDOS,4
+2017-10-25,Upgrade,Wells Fargo,Market-Perform to Outperform,,LDOS,5
+2017-10-05,Resumed,Jefferies,Buy,75,LDOS,4
+2020-11-09,Upgrade,BMO Capital Markets,Market-Perform to Outperform,50-70,MGA,5
+2020-11-09,Downgrade,Morgan Stanley,Equal-Weight to Underweight,,MGA,1
+2020-04-27,Upgrade,Credit Suisse,Neutral to Outperform,55-50,MGA,5
+2020-04-15,Initiated,Goldman,Neutral,35,MGA,2
+2020-03-30,Upgrade,Morgan Stanley,Underweight to Equal-Weight,,MGA,5
+2020-03-24,Upgrade,KeyBanc Capital Markets,Sector-Weight to Overweight,40,MGA,5
+2020-01-09,Initiated,The Benchmark Company,Buy,68,MGA,2
+2019-12-17,Resumed,RBC Capital Mkts,Outperform,76,MGA,4
+2019-06-27,Initiated,Credit Suisse,Neutral,,MGA,2
+2019-05-01,Downgrade,Wolfe Research,Outperform to Peer-Perform,,MGA,1
+2019-04-16,Initiated,Seaport Global Securities,Buy,,MGA,2
+2019-04-15,Downgrade,CIBC,Sector-Outperform to Neutral,,MGA,1
+2019-02-22,Downgrade,TD Securities,Buy to Hold,,MGA,1
+2019-01-10,Upgrade,TD Securities,Hold to Buy,,MGA,5
+2018-10-02,Initiated,Wolfe Research,Outperform,,MGA,2
+2018-05-14,Initiated,Evercore ISI,Outperform,80,MGA,2
+2018-03-22,Downgrade,Morgan Stanley,Equal-Weight to Underweight,,MGA,1
+2018-01-19,Downgrade,TD Securities,Buy to Hold,,MGA,1
+2018-01-12,Upgrade,Wells Fargo,Market-Perform to Outperform,,MGA,5
+2018-01-09,Reiterated,Macquarie,Outperform,59-72,MGA,3
+2020-05-18,Downgrade,Standpoint Research,Buy to Hold,,NEM,1
+2020-04-16,Downgrade,Barclays,Overweight to Equal-Weight,58,NEM,1
+2020-04-09,Initiated,JP Morgan,Overweight,61,NEM,2
+2020-02-24,Upgrade,CIBC,Neutral to Sector-Outperform,,NEM,5
+2020-02-06,Initiated,UBS,Neutral,46,NEM,2
+2020-01-13,Upgrade,B. Riley FBR,Neutral to Buy,48,NEM,5
+2019-12-05,Resumed,RBC Capital Mkts,Sector-Perform,,NEM,4
+2019-10-03,Upgrade,Deutsche Bank,Hold to Buy,,NEM,5
+2019-09-13,Initiated,Macquarie,Neutral,,NEM,2
+2019-09-11,Upgrade,BMO Capital Markets,Market-Perform to Outperform,45-50,NEM,5
+2019-09-09,Upgrade,RBC Capital Mkts,Underperform to Sector-Perform,45,NEM,5
+2019-05-23,Upgrade,Citigroup,Neutral to Buy,,NEM,5
+2019-04-22,Upgrade,TD Securities,Hold to Buy,,NEM,5
+2019-03-19,Resumed,B. Riley FBR,Neutral,38.40,NEM,4
+2019-01-15,Downgrade,CIBC,Sector-Outperform to Neutral,,NEM,1
+2018-06-12,Upgrade,Morgan Stanley,Equal-Weight to Overweight,,NEM,5
+2018-03-12,Downgrade,RBC Capital Mkts,Sector-Perform to Underperform,,NEM,1
+2018-01-16,Downgrade,Deutsche Bank,Buy to Hold,42-40,NEM,1
+2017-07-27,Upgrade,Argus,Hold to Buy,43,NEM,5
+2017-03-16,Downgrade,RBC Capital Mkts,Outperform to Sector-Perform,43-38,NEM,1
+2020-12-16,Downgrade,B. Riley Securities,Buy to Neutral,73,PWR,1
+2020-10-21,Downgrade,DA Davidson,Buy to Neutral,58,PWR,1
+2020-09-23,Initiated,Bernstein,Outperform,62,PWR,2
+2020-05-28,Initiated,Northland Capital,Outperform,44,PWR,2
+2020-01-07,Upgrade,Robert W. Baird,Neutral to Outperform,46,PWR,5
+2019-12-20,Upgrade,DA Davidson,Neutral to Buy,,PWR,5
+2019-08-23,Initiated,Vertical Research,Buy,,PWR,2
+2019-03-11,Reiterated,B. Riley FBR,Buy,56-47,PWR,3
+2018-02-26,Reiterated,"B. Riley FBR, Inc.",Buy,50-48,PWR,3
+2017-10-11,Resumed,Seaport Global Securities,Buy,45,PWR,4
+2017-08-18,Upgrade,Citigroup,Neutral to Buy,,PWR,5
+2017-08-04,Upgrade,Johnson Rice,Accumulate to Buy,,PWR,5
+2017-08-03,Upgrade,FBR & Co.,Mkt-Perform to Outperform,40-45,PWR,5
+2017-07-26,Downgrade,Robert W. Baird,Outperform to Neutral,41-38,PWR,1
+2017-04-07,Reiterated,FBR & Co.,Mkt-Perform,41-40,PWR,3
+2016-11-15,Upgrade,Robert W. Baird,Neutral to Outperform,30-40,PWR,5
+2016-09-23,Reiterated,Stifel,Buy,28-32.50,PWR,3
+2016-08-05,Upgrade,Stifel,Hold to Buy,28,PWR,5
+2016-05-06,Reiterated,Maxim Group,Buy,26-28,PWR,3
+2016-05-06,Reiterated,FBR Capital,Mkt-Perform,23-25,PWR,3
+2020-11-06,Downgrade,Citigroup,Buy to Neutral,,SAP,1
+2020-11-02,Downgrade,UBS,Buy to Neutral,,SAP,1
+2020-10-28,Downgrade,Argus,Buy to Hold,,SAP,1
+2020-10-26,Downgrade,JP Morgan,Overweight to Neutral,,SAP,1
+2020-10-26,Downgrade,Exane BNP Paribas,Outperform to Neutral,130,SAP,1
+2020-06-16,Reiterated,Oppenheimer,Outperform,115-137,SAP,3
+2020-04-22,Downgrade,RBC Capital Mkts,Outperform to Sector-Perform,,SAP,1
+2020-04-09,Upgrade,Deutsche Bank,Hold to Buy,,SAP,5
+2019-12-17,Downgrade,BofA/Merrill,Neutral to Underperform,,SAP,1
+2019-07-22,Initiated,Jefferies,Buy,,SAP,2
+2019-07-19,Downgrade,Deutsche Bank,Buy to Hold,,SAP,1
+2019-06-17,Upgrade,HSBC Securities,Hold to Buy,,SAP,5
+2019-04-29,Upgrade,RBC Capital Mkts,Sector-Perform to Outperform,,SAP,5
+2019-04-25,Reiterated,BMO Capital Markets,Market-Perform,115-135,SAP,3
+2019-04-09,Downgrade,UBS,Buy to Neutral,,SAP,1
+2019-04-09,Downgrade,HSBC Securities,Buy to Hold,,SAP,1
+2019-02-04,Downgrade,BofA/Merrill,Buy to Neutral,,SAP,1
+2018-07-20,Reiterated,Barclays,Overweight,134-128,SAP,3
+2018-06-01,Initiated,Jefferies,Buy,,SAP,2
+2018-03-12,Upgrade,Evercore ISI,In-line to Outperform,,SAP,5
