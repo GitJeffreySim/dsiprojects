@@ -86,7 +86,7 @@ This EDA step would give us a first cut selection of features that are most like
 
 
 
-![pic2.png](attachment:pic2.png)
+![pic2.png](images/pic2.png "pic2")
 
 Initial data cleaning showed that a number of features had missing values, which would need to be managed appropriately before modelling.  Before doing this we examined the target variable’s (i.e. the SalesPrice) descriptive statistics.
 
@@ -100,7 +100,7 @@ In each of the frequency plots, we added a horizontal line which was the 50% cou
 
 In the box plots, we were able to visualized the extremity of outliers in the features to consider for removal or treatment on those extremities.
 
-![pic3.png](attachment:pic3.png)
+![pic3.png](images/pic3.png "pic3")
 
 For example, `MsSubClass` showed a lot of outliers at both max and min ends in the boxplot. Although this feature was shortlisted we had to keep in mind that it will require further analysis to treat those outliers appropriately.
 
@@ -126,7 +126,7 @@ In each of the frequency plots, we added a horizontal line which was the 50% cou
 
 In the regplots, we were able to visualized the extremity of outliers in the features to consider for removal or treatment on those extremities.
 
-![pic4-2.png](attachment:pic4-2.png)
+![pic4.png](images/pic4.png "pic4")
 
 For example, we observed that `YearBuilt`, `YearRemod/Add` and `GarageYrBlt` had showed a clear positive linear relationship to saleprice. In this process, we identified features that need to be treated and get it done.
 
@@ -149,7 +149,7 @@ Here we choose to make plots of Seaborn's regplot and stripplot against salepric
 
 In the regplots, we can see the effect of the outliers and zero values as depicted by the diverging fan of the regression line. The bigger the red shaded area mean the bigger effect these outliers and zero values had on the saleprice variation. 
 
-![pic5.png](attachment:pic5.png)
+![pic5.png](images/pic5.png "pic5")
 
 Next we used stripplot with additional 3 vertical lines to assist in determining the maximum threshold value to use for treating outliers. Although an overlay of swarmplot over a boxlot would be a better choice of graphic. It was not possible here due to having over 2000 data points that could not fit nicely into the constraint figure size. Thus, we calculated the threshold and plotted the overlay. Thresholds were calculated as follows:
 
@@ -159,7 +159,7 @@ Next we used stripplot with additional 3 vertical lines to assist in determining
     - median = 50% quantile
     - mean = mean of population
 
-![pic12.png](attachment:pic12.png)
+![pic12.png](images/pic12.png "pic12")
 
 There are 19 numerical continuous features (excluding `SalePrice`) and from analyzing the plots above, we observed two distinct points:
 
@@ -184,7 +184,7 @@ These features were then treated according to the decision taken.
 
 ### Correlation of Numeric features
 
-![pic6.png](attachment:pic6.png)
+![pic6.png](images/pic6.png "pic6")
 
 We plotted the Pearson correlation heatmap and saw the correlation of numerical independent features with the output variable SalePrice. We will only select features which has correlation of above 0.5 (taking absolute value) with the output variable.
 
@@ -202,12 +202,12 @@ By sorting the list, we could see that the top features with highest positive co
     
 These were then put plotted into any heatmap to eliminate features with high collinearity to each other.
 
-![pic7.png](attachment:pic7.png)
+![pic7.png](images/pic7.png "pic7")
 
 Now we can visualize better the correlation between variables, one of the assumptions of linear regression is that the independent features need to be uncorrelated with each other. If these features are highly correlated (>80%) with each other we should keep only one of them.
 
 - `GarageYrBlt` vs `YearBuilt` - 0.86 (dropping `GarageYrBuilt` as it had lower correlation with `SalePrice`)
-- `TotalBsmtSF` vs `1stFlrSF` - 0.85 (dropping `TotalBsmtSF` as it had lower correlation with `SalePrice`)
+- `GarageArea` vs `GarageCars` - 0.85 (dropping `GarageCars` as it had lower correlation with `SalePrice`)
 
 ## One-Hot encoding and Feature Engineering
 
@@ -230,7 +230,7 @@ We engineered `YearBuilt` into a continuous feature by replacing it with a new f
 
 With so many features (125) back in the picture, we need to trim this down so we took the absolute correlation values of the features against SalePrice and selected only those that were more than 0.25. This was to avoid excessive removal of features too early in the process. We were left with 30 features and we plotted the correlation heatmap again for the numeric features.
 
-![pic8.png](attachment:pic8.png)
+![pic8.png](images/pic8.png "pic8")
 
 From the heatmap we observed that there was a good spread of original and hot-encoded features, as well as the correlation between features and sale price. Two features stood out for their high correlation to each other, namely `Exterior2nd_VinylSd` vs `Exterior1st_VinylSd` (0.98); and `MasVnrType_BrkFAce` vs `MasVnrType_None` (-0.82). Although logically this was a good time to drop these features due to their high collinearity. We noticed that these were features engineered by .get_dummies function and each pair belonged to the same feature category. We decided to leave them as it is for now since it was only 4 features.
 
@@ -254,7 +254,7 @@ It is hard to judge what would be a good 𝑅2 range at this point as the featur
 
 We applied Train-Test-Split and StandardScaler to prepare the model data. Followed by instantiating the various regression models that we intend to evaluate.
 
-![pic9-2.png](attachment:pic9-2.png)
+![pic9.png](images/pic9.png "pic9")
 
 ## Model evaluation using cross validation
 
@@ -333,7 +333,7 @@ We then ran Lasso with the reduced features and plotted the predictors and their
 
 Based on the selected features and after going through regularization (constraint to the limits of the range of tests for alphas). The best predictors are depicted in the Lasso model that minimized the RMSE the most. This production model shall be the basis for predicting sale prices of the Kaggle's Test data file.
 
-![pic10.png](attachment:pic10.png)
+![pic10.png](images/pic10.png "pic10")
 
 ## Generating predictions for Kaggle's Test data
 
@@ -345,7 +345,7 @@ Thereafter, we train the production model once again with the Kaggle's Train dat
 
 We matched and inserted back the `Id` column before exporting the final Kaggle submission file. We also took a quick look at the summary statistic of the submission data as a sensibility check, for example no negative sale price and the price range was not blown out of proportion.
 
-![pic11-2.png](attachment:pic11-2.png)
+![pic11.png](images/pic11.png "pic11")
 
 ## Kaggle Submission Result
 
